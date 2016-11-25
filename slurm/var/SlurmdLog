@@ -1,0 +1,1616 @@
+[2016-05-17T09:55:02.630] Node configuration differs from hardware: CPUs=16:32(hw) Boards=1:1(hw) SocketsPerBoard=16:2(hw) CoresPerSocket=1:8(hw) ThreadsPerCore=1:2(hw)
+[2016-05-17T09:55:02.630] Message aggregation disabled
+[2016-05-17T09:55:02.631] Gres Name=gpu Type=tesla Count=8 ID=7696487 File=/dev/nvidia[0-7] CPUs=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 CpuCnt=32
+[2016-05-17T09:55:02.631] gpu 0 is device number 0
+[2016-05-17T09:55:02.631] gpu 1 is device number 1
+[2016-05-17T09:55:02.631] gpu 2 is device number 2
+[2016-05-17T09:55:02.631] gpu 3 is device number 3
+[2016-05-17T09:55:02.631] gpu 4 is device number 4
+[2016-05-17T09:55:02.631] gpu 5 is device number 5
+[2016-05-17T09:55:02.631] gpu 6 is device number 6
+[2016-05-17T09:55:02.631] gpu 7 is device number 7
+[2016-05-17T09:55:02.634] Resource spec: Reserved system memory limit not configured for this node
+[2016-05-17T09:55:02.636] slurmd version 15.08.6 started
+[2016-05-17T09:55:02.796] slurmd started on Tue, 17 May 2016 09:55:02 +0800
+[2016-05-17T09:55:02.797] CPUs=16 Boards=1 Sockets=16 Cores=1 Threads=1 Memory=161167 TmpDisk=50273 Uptime=10950074 CPUSpecList=(null)
+[2016-05-17T09:55:13.118] _run_prolog: run job script took usec=10
+[2016-05-17T09:55:13.118] _run_prolog: prolog with lock for job 2 ran for 0 seconds
+[2016-05-17T09:55:13.118] Launching batch job 2 for UID 1001
+[2016-05-17T09:55:13.126] [2] gres: gpu state for job 2
+[2016-05-17T09:55:13.126] [2]   gres_cnt:1 node_cnt:1 type:(null)
+[2016-05-17T09:55:13.126] [2]   gres_bit_step_alloc:NULL
+[2016-05-17T09:55:13.126] [2]   gres_cnt_step_alloc:NULL
+[2016-05-17T09:55:13.126] [2]   gres_bit_alloc[0]:0
+[2016-05-17T09:55:24.191] _run_prolog: run job script took usec=19
+[2016-05-17T09:55:24.192] _run_prolog: prolog with lock for job 3 ran for 0 seconds
+[2016-05-17T09:55:24.192] Launching batch job 3 for UID 1001
+[2016-05-17T09:55:24.204] [3] gres: gpu state for job 3
+[2016-05-17T09:55:24.204] [3]   gres_cnt:1 node_cnt:1 type:(null)
+[2016-05-17T09:55:24.204] [3]   gres_bit_step_alloc:NULL
+[2016-05-17T09:55:24.204] [3]   gres_cnt_step_alloc:NULL
+[2016-05-17T09:55:24.204] [3]   gres_bit_alloc[0]:1
+[2016-05-17T09:55:24.563] [2] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T09:55:24.565] [2] done with job
+[2016-05-17T09:55:36.434] [3] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T09:55:36.437] [3] done with job
+[2016-05-17T10:37:18.263] Node configuration differs from hardware: CPUs=16:32(hw) Boards=1:1(hw) SocketsPerBoard=16:2(hw) CoresPerSocket=1:8(hw) ThreadsPerCore=1:2(hw)
+[2016-05-17T10:37:18.264] Message aggregation disabled
+[2016-05-17T10:37:18.264] Gres Name=gpu Type=tesla Count=8 ID=7696487 File=/dev/nvidia[0-7] CPUs=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 CpuCnt=32
+[2016-05-17T10:37:18.265] gpu 0 is device number 0
+[2016-05-17T10:37:18.265] gpu 1 is device number 1
+[2016-05-17T10:37:18.265] gpu 2 is device number 2
+[2016-05-17T10:37:18.265] gpu 3 is device number 3
+[2016-05-17T10:37:18.265] gpu 4 is device number 4
+[2016-05-17T10:37:18.265] gpu 5 is device number 5
+[2016-05-17T10:37:18.265] gpu 6 is device number 6
+[2016-05-17T10:37:18.265] gpu 7 is device number 7
+[2016-05-17T10:37:18.268] Resource spec: Reserved system memory limit not configured for this node
+[2016-05-17T10:37:18.269] slurmd version 15.08.6 started
+[2016-05-17T10:37:18.271] slurmd started on Tue, 17 May 2016 10:37:18 +0800
+[2016-05-17T10:37:18.271] CPUs=16 Boards=1 Sockets=16 Cores=1 Threads=1 Memory=161167 TmpDisk=50273 Uptime=10952610 CPUSpecList=(null)
+[2016-05-17T10:37:18.939] _run_prolog: run job script took usec=9
+[2016-05-17T10:37:18.939] _run_prolog: prolog with lock for job 4 ran for 0 seconds
+[2016-05-17T10:37:18.939] Launching batch job 4 for UID 1001
+[2016-05-17T10:37:18.949] [4] gres: gpu state for job 4
+[2016-05-17T10:37:18.949] [4]   gres_cnt:1 node_cnt:1 type:(null)
+[2016-05-17T10:37:18.950] [4]   gres_bit_step_alloc:NULL
+[2016-05-17T10:37:18.950] [4]   gres_cnt_step_alloc:NULL
+[2016-05-17T10:37:18.950] [4]   gres_bit_alloc[0]:0
+[2016-05-17T10:37:30.899] [4] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T10:37:30.902] [4] done with job
+[2016-05-17T10:37:39.190] _run_prolog: run job script took usec=11
+[2016-05-17T10:37:39.190] _run_prolog: prolog with lock for job 6 ran for 0 seconds
+[2016-05-17T10:37:39.190] Launching batch job 6 for UID 1001
+[2016-05-17T10:37:39.199] [6] gres: gpu state for job 6
+[2016-05-17T10:37:39.199] [6]   gres_cnt:1 node_cnt:1 type:(null)
+[2016-05-17T10:37:39.199] [6]   gres_bit_step_alloc:NULL
+[2016-05-17T10:37:39.199] [6]   gres_cnt_step_alloc:NULL
+[2016-05-17T10:37:39.199] [6]   gres_bit_alloc[0]:0
+[2016-05-17T10:37:51.023] [6] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T10:37:51.025] [6] done with job
+[2016-05-17T10:40:20.304] Node configuration differs from hardware: CPUs=16:32(hw) Boards=1:1(hw) SocketsPerBoard=16:2(hw) CoresPerSocket=1:8(hw) ThreadsPerCore=1:2(hw)
+[2016-05-17T10:40:20.304] Message aggregation disabled
+[2016-05-17T10:40:20.305] Gres Name=gpu Type=tesla Count=8 ID=7696487 File=/dev/nvidia[0-7] CPUs=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 CpuCnt=32
+[2016-05-17T10:40:20.305] gpu 0 is device number 0
+[2016-05-17T10:40:20.305] gpu 1 is device number 1
+[2016-05-17T10:40:20.305] gpu 2 is device number 2
+[2016-05-17T10:40:20.305] gpu 3 is device number 3
+[2016-05-17T10:40:20.305] gpu 4 is device number 4
+[2016-05-17T10:40:20.305] gpu 5 is device number 5
+[2016-05-17T10:40:20.305] gpu 6 is device number 6
+[2016-05-17T10:40:20.305] gpu 7 is device number 7
+[2016-05-17T10:40:20.308] Resource spec: Reserved system memory limit not configured for this node
+[2016-05-17T10:40:20.310] slurmd version 15.08.6 started
+[2016-05-17T10:40:20.311] slurmd started on Tue, 17 May 2016 10:40:20 +0800
+[2016-05-17T10:40:20.312] CPUs=16 Boards=1 Sockets=16 Cores=1 Threads=1 Memory=161167 TmpDisk=50273 Uptime=10952792 CPUSpecList=(null)
+[2016-05-17T10:40:20.729] _run_prolog: run job script took usec=11
+[2016-05-17T10:40:20.729] _run_prolog: prolog with lock for job 7 ran for 0 seconds
+[2016-05-17T10:40:20.729] Launching batch job 7 for UID 1001
+[2016-05-17T10:40:20.731] _run_prolog: run job script took usec=11
+[2016-05-17T10:40:20.731] _run_prolog: prolog with lock for job 9 ran for 0 seconds
+[2016-05-17T10:40:20.891] [7] gres: gpu state for job 7
+[2016-05-17T10:40:20.891] [7]   gres_cnt:1 node_cnt:1 type:(null)
+[2016-05-17T10:40:20.891] [7]   gres_bit_step_alloc:NULL
+[2016-05-17T10:40:20.891] [7]   gres_cnt_step_alloc:NULL
+[2016-05-17T10:40:20.891] [7]   gres_bit_alloc[0]:0
+[2016-05-17T10:40:20.892] Launching batch job 9 for UID 1001
+[2016-05-17T10:40:20.901] [9] gres: gpu state for job 9
+[2016-05-17T10:40:20.901] [9]   gres_cnt:1 node_cnt:1 type:(null)
+[2016-05-17T10:40:20.901] [9]   gres_bit_step_alloc:NULL
+[2016-05-17T10:40:20.901] [9]   gres_cnt_step_alloc:NULL
+[2016-05-17T10:40:20.901] [9]   gres_bit_alloc[0]:1
+[2016-05-17T10:40:41.201] [7] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T10:40:41.205] [7] done with job
+[2016-05-17T10:40:41.423] [9] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T10:40:41.427] [9] done with job
+[2016-05-17T10:41:56.897] Node configuration differs from hardware: CPUs=16:32(hw) Boards=1:1(hw) SocketsPerBoard=16:2(hw) CoresPerSocket=1:8(hw) ThreadsPerCore=1:2(hw)
+[2016-05-17T10:41:56.897] Message aggregation disabled
+[2016-05-17T10:41:56.898] Gres Name=gpu Type=tesla Count=8 ID=7696487 File=/dev/nvidia[0-7] CPUs=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 CpuCnt=32
+[2016-05-17T10:41:56.898] gpu 0 is device number 0
+[2016-05-17T10:41:56.898] gpu 1 is device number 1
+[2016-05-17T10:41:56.898] gpu 2 is device number 2
+[2016-05-17T10:41:56.898] gpu 3 is device number 3
+[2016-05-17T10:41:56.898] gpu 4 is device number 4
+[2016-05-17T10:41:56.898] gpu 5 is device number 5
+[2016-05-17T10:41:56.898] gpu 6 is device number 6
+[2016-05-17T10:41:56.898] gpu 7 is device number 7
+[2016-05-17T10:41:56.901] Resource spec: Reserved system memory limit not configured for this node
+[2016-05-17T10:41:56.902] slurmd version 15.08.6 started
+[2016-05-17T10:41:56.903] slurmd started on Tue, 17 May 2016 10:41:56 +0800
+[2016-05-17T10:41:56.904] CPUs=16 Boards=1 Sockets=16 Cores=1 Threads=1 Memory=161167 TmpDisk=50273 Uptime=10952888 CPUSpecList=(null)
+[2016-05-17T10:41:56.993] _run_prolog: run job script took usec=9
+[2016-05-17T10:41:56.993] _run_prolog: prolog with lock for job 10 ran for 0 seconds
+[2016-05-17T10:41:56.993] Launching batch job 10 for UID 1001
+[2016-05-17T10:41:57.003] [10] gres: gpu state for job 10
+[2016-05-17T10:41:57.003] [10]   gres_cnt:1 node_cnt:1 type:(null)
+[2016-05-17T10:41:57.003] [10]   gres_bit_step_alloc:NULL
+[2016-05-17T10:41:57.003] [10]   gres_cnt_step_alloc:NULL
+[2016-05-17T10:41:57.003] [10]   gres_bit_alloc[0]:0
+[2016-05-17T10:42:08.709] [10] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T10:42:08.869] [10] done with job
+[2016-05-17T10:42:52.283] _run_prolog: run job script took usec=10
+[2016-05-17T10:42:52.283] _run_prolog: prolog with lock for job 12 ran for 0 seconds
+[2016-05-17T10:42:52.283] Launching batch job 12 for UID 1001
+[2016-05-17T10:42:52.293] [12] gres: gpu state for job 12
+[2016-05-17T10:42:52.293] [12]   gres_cnt:1 node_cnt:1 type:(null)
+[2016-05-17T10:42:52.293] [12]   gres_bit_step_alloc:NULL
+[2016-05-17T10:42:52.293] [12]   gres_cnt_step_alloc:NULL
+[2016-05-17T10:42:52.293] [12]   gres_bit_alloc[0]:0
+[2016-05-17T10:43:03.760] [12] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T10:43:03.764] [12] done with job
+[2016-05-17T10:47:38.519] Node configuration differs from hardware: CPUs=16:32(hw) Boards=1:1(hw) SocketsPerBoard=16:2(hw) CoresPerSocket=1:8(hw) ThreadsPerCore=1:2(hw)
+[2016-05-17T10:47:38.519] Message aggregation disabled
+[2016-05-17T10:47:38.519] Gres Name=gpu Type=tesla Count=8 ID=7696487 File=/dev/nvidia[0-7] CPUs=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 CpuCnt=32
+[2016-05-17T10:47:38.519] gpu 0 is device number 0
+[2016-05-17T10:47:38.520] gpu 1 is device number 1
+[2016-05-17T10:47:38.520] gpu 2 is device number 2
+[2016-05-17T10:47:38.520] gpu 3 is device number 3
+[2016-05-17T10:47:38.520] gpu 4 is device number 4
+[2016-05-17T10:47:38.520] gpu 5 is device number 5
+[2016-05-17T10:47:38.520] gpu 6 is device number 6
+[2016-05-17T10:47:38.520] gpu 7 is device number 7
+[2016-05-17T10:47:38.523] Resource spec: Reserved system memory limit not configured for this node
+[2016-05-17T10:47:38.524] slurmd version 15.08.6 started
+[2016-05-17T10:47:38.526] slurmd started on Tue, 17 May 2016 10:47:38 +0800
+[2016-05-17T10:47:38.526] CPUs=16 Boards=1 Sockets=16 Cores=1 Threads=1 Memory=161167 TmpDisk=50273 Uptime=10953230 CPUSpecList=(null)
+[2016-05-17T10:47:39.782] _run_prolog: run job script took usec=9
+[2016-05-17T10:47:39.783] _run_prolog: prolog with lock for job 13 ran for 0 seconds
+[2016-05-17T10:47:39.783] Launching batch job 13 for UID 1001
+[2016-05-17T10:47:39.793] [13] gres: gpu state for job 13
+[2016-05-17T10:47:39.793] [13]   gres_cnt:1 node_cnt:1 type:(null)
+[2016-05-17T10:47:39.793] [13]   gres_bit_step_alloc:NULL
+[2016-05-17T10:47:39.794] [13]   gres_cnt_step_alloc:NULL
+[2016-05-17T10:47:39.794] [13]   gres_bit_alloc[0]:0
+[2016-05-17T10:47:51.633] [13] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T10:47:51.659] [13] done with job
+[2016-05-17T10:48:15.145] _run_prolog: run job script took usec=12
+[2016-05-17T10:48:15.145] _run_prolog: prolog with lock for job 15 ran for 0 seconds
+[2016-05-17T10:48:15.145] Launching batch job 15 for UID 1001
+[2016-05-17T10:48:15.154] [15] gres: gpu state for job 15
+[2016-05-17T10:48:15.154] [15]   gres_cnt:1 node_cnt:1 type:(null)
+[2016-05-17T10:48:15.154] [15]   gres_bit_step_alloc:NULL
+[2016-05-17T10:48:15.154] [15]   gres_cnt_step_alloc:NULL
+[2016-05-17T10:48:15.154] [15]   gres_bit_alloc[0]:0
+[2016-05-17T10:48:26.840] [15] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T10:48:32.342] [15] done with job
+[2016-05-17T10:50:52.989] error: slurm_receive_msg: Transport endpoint is not connected
+[2016-05-17T10:50:52.999] error: Unable to register: Transport endpoint is not connected
+[2016-05-17T10:58:00.982] Node configuration differs from hardware: CPUs=16:32(hw) Boards=1:1(hw) SocketsPerBoard=16:2(hw) CoresPerSocket=1:8(hw) ThreadsPerCore=1:2(hw)
+[2016-05-17T10:58:00.982] Message aggregation disabled
+[2016-05-17T10:58:00.983] Gres Name=gpu Type=tesla Count=8 ID=7696487 File=/dev/nvidia[0-7] CPUs=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 CpuCnt=32
+[2016-05-17T10:58:00.983] gpu 0 is device number 0
+[2016-05-17T10:58:00.983] gpu 1 is device number 1
+[2016-05-17T10:58:00.983] gpu 2 is device number 2
+[2016-05-17T10:58:00.983] gpu 3 is device number 3
+[2016-05-17T10:58:00.983] gpu 4 is device number 4
+[2016-05-17T10:58:00.983] gpu 5 is device number 5
+[2016-05-17T10:58:00.983] gpu 6 is device number 6
+[2016-05-17T10:58:00.983] gpu 7 is device number 7
+[2016-05-17T10:58:00.986] Resource spec: Reserved system memory limit not configured for this node
+[2016-05-17T10:58:00.988] slurmd version 15.08.6 started
+[2016-05-17T10:58:00.989] slurmd started on Tue, 17 May 2016 10:58:00 +0800
+[2016-05-17T10:58:00.989] CPUs=16 Boards=1 Sockets=16 Cores=1 Threads=1 Memory=161167 TmpDisk=50273 Uptime=10953852 CPUSpecList=(null)
+[2016-05-17T10:58:05.438] _run_prolog: run job script took usec=10
+[2016-05-17T10:58:05.438] _run_prolog: prolog with lock for job 17 ran for 0 seconds
+[2016-05-17T10:58:05.438] Launching batch job 17 for UID 1001
+[2016-05-17T10:58:05.446] [17] gres: gpu state for job 17
+[2016-05-17T10:58:05.446] [17]   gres_cnt:1 node_cnt:1 type:(null)
+[2016-05-17T10:58:05.446] [17]   gres_bit_step_alloc:NULL
+[2016-05-17T10:58:05.446] [17]   gres_cnt_step_alloc:NULL
+[2016-05-17T10:58:05.446] [17]   gres_bit_alloc[0]:0
+[2016-05-17T10:58:08.501] _run_prolog: run job script took usec=5
+[2016-05-17T10:58:08.501] _run_prolog: prolog with lock for job 18 ran for 0 seconds
+[2016-05-17T10:58:08.501] Launching batch job 18 for UID 1001
+[2016-05-17T10:58:08.502] _run_prolog: run job script took usec=8
+[2016-05-17T10:58:08.502] _run_prolog: prolog with lock for job 19 ran for 0 seconds
+[2016-05-17T10:58:08.502] _run_prolog: run job script took usec=5
+[2016-05-17T10:58:08.502] _run_prolog: prolog with lock for job 20 ran for 0 seconds
+[2016-05-17T10:58:08.502] _run_prolog: run job script took usec=4
+[2016-05-17T10:58:08.502] _run_prolog: prolog with lock for job 21 ran for 0 seconds
+[2016-05-17T10:58:08.506] [18] gres: gpu state for job 18
+[2016-05-17T10:58:08.506] [18]   gres_cnt:1 node_cnt:1 type:(null)
+[2016-05-17T10:58:08.506] [18]   gres_bit_step_alloc:NULL
+[2016-05-17T10:58:08.506] [18]   gres_cnt_step_alloc:NULL
+[2016-05-17T10:58:08.506] [18]   gres_bit_alloc[0]:1
+[2016-05-17T10:58:08.507] Launching batch job 19 for UID 1001
+[2016-05-17T10:58:08.512] [19] gres: gpu state for job 19
+[2016-05-17T10:58:08.512] [19]   gres_cnt:1 node_cnt:1 type:(null)
+[2016-05-17T10:58:08.512] [19]   gres_bit_step_alloc:NULL
+[2016-05-17T10:58:08.512] [19]   gres_cnt_step_alloc:NULL
+[2016-05-17T10:58:08.512] [19]   gres_bit_alloc[0]:2
+[2016-05-17T10:58:08.512] Launching batch job 20 for UID 1001
+[2016-05-17T10:58:08.518] [20] gres: gpu state for job 20
+[2016-05-17T10:58:08.518] [20]   gres_cnt:1 node_cnt:1 type:(null)
+[2016-05-17T10:58:08.518] [20]   gres_bit_step_alloc:NULL
+[2016-05-17T10:58:08.518] [20]   gres_cnt_step_alloc:NULL
+[2016-05-17T10:58:08.518] [20]   gres_bit_alloc[0]:3
+[2016-05-17T10:58:08.518] Launching batch job 21 for UID 1001
+[2016-05-17T10:58:08.524] [21] gres: gpu state for job 21
+[2016-05-17T10:58:08.524] [21]   gres_cnt:1 node_cnt:1 type:(null)
+[2016-05-17T10:58:08.524] [21]   gres_bit_step_alloc:NULL
+[2016-05-17T10:58:08.524] [21]   gres_cnt_step_alloc:NULL
+[2016-05-17T10:58:08.524] [21]   gres_bit_alloc[0]:4
+[2016-05-17T10:58:11.737] _run_prolog: run job script took usec=6
+[2016-05-17T10:58:11.737] _run_prolog: prolog with lock for job 22 ran for 0 seconds
+[2016-05-17T10:58:11.737] Launching batch job 22 for UID 1001
+[2016-05-17T10:58:11.738] _run_prolog: run job script took usec=4
+[2016-05-17T10:58:11.738] _run_prolog: prolog with lock for job 23 ran for 0 seconds
+[2016-05-17T10:58:11.738] _run_prolog: run job script took usec=4
+[2016-05-17T10:58:11.738] _run_prolog: prolog with lock for job 24 ran for 0 seconds
+[2016-05-17T10:58:11.744] [22] gres: gpu state for job 22
+[2016-05-17T10:58:11.746] [22]   gres_cnt:1 node_cnt:1 type:(null)
+[2016-05-17T10:58:11.746] [22]   gres_bit_step_alloc:NULL
+[2016-05-17T10:58:11.746] [22]   gres_cnt_step_alloc:NULL
+[2016-05-17T10:58:11.746] [22]   gres_bit_alloc[0]:5
+[2016-05-17T10:58:11.746] Launching batch job 23 for UID 1001
+[2016-05-17T10:58:11.752] [23] gres: gpu state for job 23
+[2016-05-17T10:58:11.753] [23]   gres_cnt:1 node_cnt:1 type:(null)
+[2016-05-17T10:58:11.753] [23]   gres_bit_step_alloc:NULL
+[2016-05-17T10:58:11.753] [23]   gres_cnt_step_alloc:NULL
+[2016-05-17T10:58:11.753] [23]   gres_bit_alloc[0]:6
+[2016-05-17T10:58:11.754] Launching batch job 24 for UID 1001
+[2016-05-17T10:58:11.763] [24] gres: gpu state for job 24
+[2016-05-17T10:58:11.763] [24]   gres_cnt:1 node_cnt:1 type:(null)
+[2016-05-17T10:58:11.763] [24]   gres_bit_step_alloc:NULL
+[2016-05-17T10:58:11.763] [24]   gres_cnt_step_alloc:NULL
+[2016-05-17T10:58:11.763] [24]   gres_bit_alloc[0]:7
+[2016-05-17T10:58:50.759] [17] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T10:58:50.760] [17] done with job
+[2016-05-17T10:58:50.767] _run_prolog: run job script took usec=3
+[2016-05-17T10:58:50.767] _run_prolog: prolog with lock for job 25 ran for 0 seconds
+[2016-05-17T10:58:50.767] Launching batch job 25 for UID 1001
+[2016-05-17T10:58:50.774] [25] gres: gpu state for job 25
+[2016-05-17T10:58:50.774] [25]   gres_cnt:1 node_cnt:1 type:(null)
+[2016-05-17T10:58:50.774] [25]   gres_bit_step_alloc:NULL
+[2016-05-17T10:58:50.774] [25]   gres_cnt_step_alloc:NULL
+[2016-05-17T10:58:50.774] [25]   gres_bit_alloc[0]:0
+[2016-05-17T10:59:19.487] [18] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T10:59:19.489] [18] done with job
+[2016-05-17T10:59:19.496] _run_prolog: run job script took usec=17
+[2016-05-17T10:59:19.496] _run_prolog: prolog with lock for job 26 ran for 0 seconds
+[2016-05-17T10:59:19.496] Launching batch job 26 for UID 1001
+[2016-05-17T10:59:19.504] [26] gres: gpu state for job 26
+[2016-05-17T10:59:19.504] [26]   gres_cnt:1 node_cnt:1 type:(null)
+[2016-05-17T10:59:19.504] [26]   gres_bit_step_alloc:NULL
+[2016-05-17T10:59:19.504] [26]   gres_cnt_step_alloc:NULL
+[2016-05-17T10:59:19.504] [26]   gres_bit_alloc[0]:1
+[2016-05-17T10:59:21.315] [20] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T10:59:21.317] [20] done with job
+[2016-05-17T10:59:21.326] _run_prolog: run job script took usec=11
+[2016-05-17T10:59:21.326] _run_prolog: prolog with lock for job 27 ran for 0 seconds
+[2016-05-17T10:59:21.326] Launching batch job 27 for UID 1001
+[2016-05-17T10:59:21.331] [27] gres: gpu state for job 27
+[2016-05-17T10:59:21.331] [27]   gres_cnt:1 node_cnt:1 type:(null)
+[2016-05-17T10:59:21.331] [27]   gres_bit_step_alloc:NULL
+[2016-05-17T10:59:21.331] [27]   gres_cnt_step_alloc:NULL
+[2016-05-17T10:59:21.331] [27]   gres_bit_alloc[0]:3
+[2016-05-17T10:59:21.515] [19] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T10:59:21.520] [19] done with job
+[2016-05-17T10:59:21.527] _run_prolog: run job script took usec=16
+[2016-05-17T10:59:21.527] _run_prolog: prolog with lock for job 28 ran for 0 seconds
+[2016-05-17T10:59:21.527] Launching batch job 28 for UID 1001
+[2016-05-17T10:59:21.534] [28] gres: gpu state for job 28
+[2016-05-17T10:59:21.534] [28]   gres_cnt:1 node_cnt:1 type:(null)
+[2016-05-17T10:59:21.534] [28]   gres_bit_step_alloc:NULL
+[2016-05-17T10:59:21.534] [28]   gres_cnt_step_alloc:NULL
+[2016-05-17T10:59:21.534] [28]   gres_bit_alloc[0]:2
+[2016-05-17T10:59:21.730] [21] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T10:59:21.731] [21] done with job
+[2016-05-17T10:59:21.738] _run_prolog: run job script took usec=4
+[2016-05-17T10:59:21.738] _run_prolog: prolog with lock for job 29 ran for 0 seconds
+[2016-05-17T10:59:21.738] Launching batch job 29 for UID 1001
+[2016-05-17T10:59:21.743] [29] gres: gpu state for job 29
+[2016-05-17T10:59:21.743] [29]   gres_cnt:1 node_cnt:1 type:(null)
+[2016-05-17T10:59:21.743] [29]   gres_bit_step_alloc:NULL
+[2016-05-17T10:59:21.743] [29]   gres_cnt_step_alloc:NULL
+[2016-05-17T10:59:21.743] [29]   gres_bit_alloc[0]:4
+[2016-05-17T10:59:23.847] [23] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T10:59:23.848] [23] done with job
+[2016-05-17T10:59:23.867] _run_prolog: run job script took usec=12
+[2016-05-17T10:59:23.867] _run_prolog: prolog with lock for job 30 ran for 0 seconds
+[2016-05-17T10:59:23.867] Launching batch job 30 for UID 1001
+[2016-05-17T10:59:23.878] [30] gres: gpu state for job 30
+[2016-05-17T10:59:23.878] [30]   gres_cnt:1 node_cnt:1 type:(null)
+[2016-05-17T10:59:23.878] [30]   gres_bit_step_alloc:NULL
+[2016-05-17T10:59:23.878] [30]   gres_cnt_step_alloc:NULL
+[2016-05-17T10:59:23.878] [30]   gres_bit_alloc[0]:6
+[2016-05-17T10:59:24.805] [22] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T10:59:24.805] [24] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T10:59:24.808] [22] done with job
+[2016-05-17T10:59:24.810] [24] done with job
+[2016-05-17T10:59:24.819] _run_prolog: run job script took usec=10
+[2016-05-17T10:59:24.819] _run_prolog: prolog with lock for job 31 ran for 0 seconds
+[2016-05-17T10:59:24.819] Launching batch job 31 for UID 1001
+[2016-05-17T10:59:24.820] _run_prolog: run job script took usec=6
+[2016-05-17T10:59:24.820] _run_prolog: prolog with lock for job 32 ran for 0 seconds
+[2016-05-17T10:59:24.825] [31] gres: gpu state for job 31
+[2016-05-17T10:59:24.825] [31]   gres_cnt:1 node_cnt:1 type:(null)
+[2016-05-17T10:59:24.825] [31]   gres_bit_step_alloc:NULL
+[2016-05-17T10:59:24.825] [31]   gres_cnt_step_alloc:NULL
+[2016-05-17T10:59:24.825] [31]   gres_bit_alloc[0]:5
+[2016-05-17T10:59:24.825] Launching batch job 32 for UID 1001
+[2016-05-17T10:59:24.836] [32] gres: gpu state for job 32
+[2016-05-17T10:59:24.836] [32]   gres_cnt:1 node_cnt:1 type:(null)
+[2016-05-17T10:59:24.837] [32]   gres_bit_step_alloc:NULL
+[2016-05-17T10:59:24.837] [32]   gres_cnt_step_alloc:NULL
+[2016-05-17T10:59:24.837] [32]   gres_bit_alloc[0]:7
+[2016-05-17T10:59:57.445] [25] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T10:59:57.446] [25] done with job
+[2016-05-17T10:59:57.453] _run_prolog: run job script took usec=6
+[2016-05-17T10:59:57.453] _run_prolog: prolog with lock for job 33 ran for 0 seconds
+[2016-05-17T10:59:57.453] Launching batch job 33 for UID 1001
+[2016-05-17T10:59:57.460] [33] gres: gpu state for job 33
+[2016-05-17T10:59:57.460] [33]   gres_cnt:1 node_cnt:1 type:(null)
+[2016-05-17T10:59:57.460] [33]   gres_bit_step_alloc:NULL
+[2016-05-17T10:59:57.460] [33]   gres_cnt_step_alloc:NULL
+[2016-05-17T10:59:57.460] [33]   gres_bit_alloc[0]:0
+[2016-05-17T11:00:30.805] [26] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T11:00:30.807] [26] done with job
+[2016-05-17T11:00:30.813] _run_prolog: run job script took usec=5
+[2016-05-17T11:00:30.813] _run_prolog: prolog with lock for job 34 ran for 0 seconds
+[2016-05-17T11:00:30.813] Launching batch job 34 for UID 1001
+[2016-05-17T11:00:30.820] [34] gres: gpu state for job 34
+[2016-05-17T11:00:30.820] [34]   gres_cnt:1 node_cnt:1 type:(null)
+[2016-05-17T11:00:30.820] [34]   gres_bit_step_alloc:NULL
+[2016-05-17T11:00:30.820] [34]   gres_cnt_step_alloc:NULL
+[2016-05-17T11:00:30.820] [34]   gres_bit_alloc[0]:1
+[2016-05-17T11:00:32.672] [27] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T11:00:32.673] [27] done with job
+[2016-05-17T11:00:32.681] _run_prolog: run job script took usec=6
+[2016-05-17T11:00:32.681] _run_prolog: prolog with lock for job 35 ran for 0 seconds
+[2016-05-17T11:00:32.681] Launching batch job 35 for UID 1001
+[2016-05-17T11:00:32.688] [35] gres: gpu state for job 35
+[2016-05-17T11:00:32.688] [35]   gres_cnt:1 node_cnt:1 type:(null)
+[2016-05-17T11:00:32.688] [35]   gres_bit_step_alloc:NULL
+[2016-05-17T11:00:32.688] [35]   gres_cnt_step_alloc:NULL
+[2016-05-17T11:00:32.688] [35]   gres_bit_alloc[0]:3
+[2016-05-17T11:00:33.769] [28] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T11:00:33.772] [28] done with job
+[2016-05-17T11:00:34.465] [29] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T11:00:34.466] [29] done with job
+[2016-05-17T11:00:36.240] [30] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T11:00:36.242] [30] done with job
+[2016-05-17T11:00:36.968] [31] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T11:00:36.970] [31] done with job
+[2016-05-17T11:00:37.121] [32] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T11:00:37.123] [32] done with job
+[2016-05-17T11:00:48.438] [33] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T11:00:48.439] [33] done with job
+[2016-05-17T11:00:57.781] [34] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T11:00:57.783] [34] done with job
+[2016-05-17T11:00:58.278] [35] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T11:00:58.282] [35] done with job
+[2016-05-17T11:37:04.841] Slurmd shutdown completing
+[2016-05-17T12:50:26.412] Node configuration differs from hardware: CPUs=16:32(hw) Boards=1:1(hw) SocketsPerBoard=16:2(hw) CoresPerSocket=1:8(hw) ThreadsPerCore=1:2(hw)
+[2016-05-17T12:50:26.413] Message aggregation disabled
+[2016-05-17T12:50:26.413] error: can't stat gres.conf file /home/run/wx-workplace/slurm/etc/gres.conf, assuming zero resource counts
+[2016-05-17T12:50:26.416] Resource spec: Reserved system memory limit not configured for this node
+[2016-05-17T12:50:26.418] slurmd version 15.08.6 started
+[2016-05-17T12:50:26.419] slurmd started on Tue, 17 May 2016 12:50:26 +0800
+[2016-05-17T12:50:26.420] CPUs=16 Boards=1 Sockets=16 Cores=1 Threads=1 Memory=161167 TmpDisk=50273 Uptime=10960598 CPUSpecList=(null)
+[2016-05-17T12:50:54.145] Slurmd shutdown completing
+[2016-05-17T12:52:01.357] Node configuration differs from hardware: CPUs=16:32(hw) Boards=1:1(hw) SocketsPerBoard=16:2(hw) CoresPerSocket=1:8(hw) ThreadsPerCore=1:2(hw)
+[2016-05-17T12:52:01.357] Message aggregation disabled
+[2016-05-17T12:52:01.358] error: can't stat gres.conf file /home/run/wx-workplace/slurm/etc/gres.conf, assuming zero resource counts
+[2016-05-17T12:52:01.360] Resource spec: Reserved system memory limit not configured for this node
+[2016-05-17T12:52:01.362] slurmd version 15.08.6 started
+[2016-05-17T12:52:01.363] slurmd started on Tue, 17 May 2016 12:52:01 +0800
+[2016-05-17T12:52:01.364] CPUs=16 Boards=1 Sockets=16 Cores=1 Threads=1 Memory=161167 TmpDisk=50273 Uptime=10960693 CPUSpecList=(null)
+[2016-05-17T12:52:40.801] _run_prolog: run job script took usec=9
+[2016-05-17T12:52:40.801] _run_prolog: prolog with lock for job 36 ran for 0 seconds
+[2016-05-17T12:52:40.801] Launching batch job 36 for UID 1001
+[2016-05-17T12:52:40.812] [36] gres: gpu state for job 36
+[2016-05-17T12:52:40.812] [36]   gres_cnt:2 node_cnt:2 type:(null)
+[2016-05-17T12:52:40.812] [36]   gres_bit_step_alloc:NULL
+[2016-05-17T12:52:40.812] [36]   gres_cnt_step_alloc:NULL
+[2016-05-17T12:52:40.812] [36]   gres_bit_alloc[0]:NULL
+[2016-05-17T12:52:40.812] [36]   gres_bit_alloc[1]:0-1
+[2016-05-17T12:52:43.862] _run_prolog: run job script took usec=12
+[2016-05-17T12:52:43.862] _run_prolog: prolog with lock for job 37 ran for 0 seconds
+[2016-05-17T12:52:43.862] Launching batch job 37 for UID 1001
+[2016-05-17T12:52:43.863] _run_prolog: run job script took usec=10
+[2016-05-17T12:52:43.864] _run_prolog: prolog with lock for job 38 ran for 0 seconds
+[2016-05-17T12:52:43.864] _run_prolog: run job script took usec=10
+[2016-05-17T12:52:43.864] _run_prolog: prolog with lock for job 39 ran for 0 seconds
+[2016-05-17T12:52:43.872] [37] gres: gpu state for job 37
+[2016-05-17T12:52:43.872] [37]   gres_cnt:2 node_cnt:2 type:(null)
+[2016-05-17T12:52:43.872] [37]   gres_bit_step_alloc:NULL
+[2016-05-17T12:52:43.872] [37]   gres_cnt_step_alloc:NULL
+[2016-05-17T12:52:43.872] [37]   gres_bit_alloc[0]:NULL
+[2016-05-17T12:52:43.872] [37]   gres_bit_alloc[1]:2-3
+[2016-05-17T12:52:43.872] Launching batch job 38 for UID 1001
+[2016-05-17T12:52:43.878] [38] gres: gpu state for job 38
+[2016-05-17T12:52:43.878] [38]   gres_cnt:2 node_cnt:2 type:(null)
+[2016-05-17T12:52:43.878] [38]   gres_bit_step_alloc:NULL
+[2016-05-17T12:52:43.878] [38]   gres_cnt_step_alloc:NULL
+[2016-05-17T12:52:43.878] [38]   gres_bit_alloc[0]:NULL
+[2016-05-17T12:52:43.878] [38]   gres_bit_alloc[1]:4-5
+[2016-05-17T12:52:43.878] Launching batch job 39 for UID 1001
+[2016-05-17T12:52:43.882] [39] gres: gpu state for job 39
+[2016-05-17T12:52:43.882] [39]   gres_cnt:2 node_cnt:2 type:(null)
+[2016-05-17T12:52:43.882] [39]   gres_bit_step_alloc:NULL
+[2016-05-17T12:52:43.882] [39]   gres_cnt_step_alloc:NULL
+[2016-05-17T12:52:43.882] [39]   gres_bit_alloc[0]:NULL
+[2016-05-17T12:52:43.882] [39]   gres_bit_alloc[1]:6-7
+[2016-05-17T13:00:03.196] [36] *** JOB 36 ON gpu-cluster-1 CANCELLED AT 2016-05-17T13:00:03 ***
+[2016-05-17T13:00:04.201] [36] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 15
+[2016-05-17T13:00:04.202] [36] done with job
+[2016-05-17T13:00:07.100] [37] *** JOB 37 ON gpu-cluster-1 CANCELLED AT 2016-05-17T13:00:07 ***
+[2016-05-17T13:00:08.105] [37] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 15
+[2016-05-17T13:00:08.106] [37] done with job
+[2016-05-17T13:00:09.420] [38] *** JOB 38 ON gpu-cluster-1 CANCELLED AT 2016-05-17T13:00:09 ***
+[2016-05-17T13:00:10.424] [38] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 15
+[2016-05-17T13:00:10.425] [38] done with job
+[2016-05-17T13:00:11.452] [39] *** JOB 39 ON gpu-cluster-1 CANCELLED AT 2016-05-17T13:00:11 ***
+[2016-05-17T13:00:12.459] [39] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 15
+[2016-05-17T13:00:12.461] [39] done with job
+[2016-05-17T13:00:19.584] Slurmd shutdown completing
+[2016-05-17T13:00:34.045] Node configuration differs from hardware: CPUs=16:32(hw) Boards=1:1(hw) SocketsPerBoard=16:2(hw) CoresPerSocket=1:8(hw) ThreadsPerCore=1:2(hw)
+[2016-05-17T13:00:34.045] Message aggregation disabled
+[2016-05-17T13:00:34.045] error: can't stat gres.conf file /home/run/wx-workplace/slurm/etc/gres.conf, assuming zero resource counts
+[2016-05-17T13:00:34.049] Resource spec: Reserved system memory limit not configured for this node
+[2016-05-17T13:00:34.050] slurmd version 15.08.6 started
+[2016-05-17T13:00:34.051] slurmd started on Tue, 17 May 2016 13:00:34 +0800
+[2016-05-17T13:00:34.052] CPUs=16 Boards=1 Sockets=16 Cores=1 Threads=1 Memory=161167 TmpDisk=50273 Uptime=10961205 CPUSpecList=(null)
+[2016-05-17T13:03:03.844] _run_prolog: run job script took usec=10
+[2016-05-17T13:03:03.844] _run_prolog: prolog with lock for job 45 ran for 0 seconds
+[2016-05-17T13:03:03.844] Launching batch job 45 for UID 1001
+[2016-05-17T13:03:03.855] [45] gres: gpu state for job 45
+[2016-05-17T13:03:03.855] [45]   gres_cnt:1 node_cnt:2 type:(null)
+[2016-05-17T13:03:03.855] [45]   gres_bit_step_alloc:NULL
+[2016-05-17T13:03:03.855] [45]   gres_cnt_step_alloc:NULL
+[2016-05-17T13:03:03.855] [45]   gres_bit_alloc[0]:NULL
+[2016-05-17T13:03:03.855] [45]   gres_bit_alloc[1]:0
+[2016-05-17T13:03:15.558] [45] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T13:03:15.561] [45] done with job
+[2016-05-17T13:04:39.098] _run_prolog: run job script took usec=11
+[2016-05-17T13:04:39.098] _run_prolog: prolog with lock for job 46 ran for 0 seconds
+[2016-05-17T13:04:39.098] Launching batch job 46 for UID 1001
+[2016-05-17T13:04:39.107] [46] gres: gpu state for job 46
+[2016-05-17T13:04:39.107] [46]   gres_cnt:1 node_cnt:2 type:(null)
+[2016-05-17T13:04:39.107] [46]   gres_bit_step_alloc:NULL
+[2016-05-17T13:04:39.107] [46]   gres_cnt_step_alloc:NULL
+[2016-05-17T13:04:39.107] [46]   gres_bit_alloc[0]:NULL
+[2016-05-17T13:04:39.107] [46]   gres_bit_alloc[1]:1
+[2016-05-17T13:05:31.161] [46] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T13:05:31.164] [46] done with job
+[2016-05-17T13:05:40.216] _run_prolog: run job script took usec=10
+[2016-05-17T13:05:40.216] _run_prolog: prolog with lock for job 47 ran for 0 seconds
+[2016-05-17T13:05:40.216] Launching batch job 47 for UID 1001
+[2016-05-17T13:05:40.226] [47] gres: gpu state for job 47
+[2016-05-17T13:05:40.227] [47]   gres_cnt:1 node_cnt:2 type:(null)
+[2016-05-17T13:05:40.227] [47]   gres_bit_step_alloc:NULL
+[2016-05-17T13:05:40.227] [47]   gres_cnt_step_alloc:NULL
+[2016-05-17T13:05:40.227] [47]   gres_bit_alloc[0]:NULL
+[2016-05-17T13:05:40.227] [47]   gres_bit_alloc[1]:2
+[2016-05-17T13:06:03.130] [47] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T13:06:03.132] [47] done with job
+[2016-05-17T13:07:57.428] _run_prolog: run job script took usec=10
+[2016-05-17T13:07:57.428] _run_prolog: prolog with lock for job 49 ran for 0 seconds
+[2016-05-17T13:07:57.428] Launching batch job 49 for UID 1001
+[2016-05-17T13:07:57.439] [49] gres: gpu state for job 49
+[2016-05-17T13:07:57.439] [49]   gres_cnt:1 node_cnt:2 type:(null)
+[2016-05-17T13:07:57.439] [49]   gres_bit_step_alloc:NULL
+[2016-05-17T13:07:57.439] [49]   gres_cnt_step_alloc:NULL
+[2016-05-17T13:07:57.439] [49]   gres_bit_alloc[0]:NULL
+[2016-05-17T13:07:57.439] [49]   gres_bit_alloc[1]:2
+[2016-05-17T13:08:00.490] _run_prolog: run job script took usec=11
+[2016-05-17T13:08:00.490] _run_prolog: prolog with lock for job 50 ran for 0 seconds
+[2016-05-17T13:08:00.490] Launching batch job 50 for UID 1001
+[2016-05-17T13:08:00.495] [50] gres: gpu state for job 50
+[2016-05-17T13:08:00.495] [50]   gres_cnt:1 node_cnt:2 type:(null)
+[2016-05-17T13:08:00.495] [50]   gres_bit_step_alloc:NULL
+[2016-05-17T13:08:00.495] [50]   gres_cnt_step_alloc:NULL
+[2016-05-17T13:08:00.495] [50]   gres_bit_alloc[0]:NULL
+[2016-05-17T13:08:00.495] [50]   gres_bit_alloc[1]:3
+[2016-05-17T13:08:15.335] [49] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T13:08:15.336] [49] done with job
+[2016-05-17T13:08:18.335] [50] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T13:08:18.338] [50] done with job
+[2016-05-17T13:08:48.768] _run_prolog: run job script took usec=11
+[2016-05-17T13:08:48.768] _run_prolog: prolog with lock for job 51 ran for 0 seconds
+[2016-05-17T13:08:48.768] Launching batch job 51 for UID 1001
+[2016-05-17T13:08:48.777] [51] gres: gpu state for job 51
+[2016-05-17T13:08:48.777] [51]   gres_cnt:1 node_cnt:2 type:(null)
+[2016-05-17T13:08:48.777] [51]   gres_bit_step_alloc:NULL
+[2016-05-17T13:08:48.777] [51]   gres_cnt_step_alloc:NULL
+[2016-05-17T13:08:48.777] [51]   gres_bit_alloc[0]:NULL
+[2016-05-17T13:08:48.777] [51]   gres_bit_alloc[1]:4
+[2016-05-17T13:09:00.497] [51] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T13:09:00.500] [51] done with job
+[2016-05-17T13:09:14.855] _run_prolog: run job script took usec=10
+[2016-05-17T13:09:14.855] _run_prolog: prolog with lock for job 52 ran for 0 seconds
+[2016-05-17T13:09:14.855] Launching batch job 52 for UID 1001
+[2016-05-17T13:09:14.865] [52] gres: gpu state for job 52
+[2016-05-17T13:09:14.865] [52]   gres_cnt:1 node_cnt:2 type:(null)
+[2016-05-17T13:09:14.865] [52]   gres_bit_step_alloc:NULL
+[2016-05-17T13:09:14.865] [52]   gres_cnt_step_alloc:NULL
+[2016-05-17T13:09:14.865] [52]   gres_bit_alloc[0]:NULL
+[2016-05-17T13:09:14.865] [52]   gres_bit_alloc[1]:5
+[2016-05-17T13:09:17.917] _run_prolog: run job script took usec=14
+[2016-05-17T13:09:17.917] _run_prolog: prolog with lock for job 53 ran for 0 seconds
+[2016-05-17T13:09:17.917] Launching batch job 53 for UID 1001
+[2016-05-17T13:09:17.918] _run_prolog: run job script took usec=5
+[2016-05-17T13:09:17.918] _run_prolog: prolog with lock for job 54 ran for 0 seconds
+[2016-05-17T13:09:17.925] [53] gres: gpu state for job 53
+[2016-05-17T13:09:17.925] [53]   gres_cnt:1 node_cnt:2 type:(null)
+[2016-05-17T13:09:17.925] [53]   gres_bit_step_alloc:NULL
+[2016-05-17T13:09:17.925] [53]   gres_cnt_step_alloc:NULL
+[2016-05-17T13:09:17.925] [53]   gres_bit_alloc[0]:NULL
+[2016-05-17T13:09:17.925] [53]   gres_bit_alloc[1]:6
+[2016-05-17T13:09:17.925] Launching batch job 54 for UID 1001
+[2016-05-17T13:09:17.929] [54] gres: gpu state for job 54
+[2016-05-17T13:09:17.930] [54]   gres_cnt:1 node_cnt:2 type:(null)
+[2016-05-17T13:09:17.930] [54]   gres_bit_step_alloc:NULL
+[2016-05-17T13:09:17.930] [54]   gres_cnt_step_alloc:NULL
+[2016-05-17T13:09:17.930] [54]   gres_bit_alloc[0]:NULL
+[2016-05-17T13:09:17.930] [54]   gres_bit_alloc[1]:7
+[2016-05-17T13:09:39.342] [52] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T13:09:39.343] [52] done with job
+[2016-05-17T13:09:44.332] [54] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T13:09:44.335] [54] done with job
+[2016-05-17T13:09:44.488] [53] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T13:09:44.491] [53] done with job
+[2016-05-17T13:17:54.309] Slurmd shutdown completing
+[2016-05-17T13:18:21.264] Node configuration differs from hardware: CPUs=16:32(hw) Boards=1:1(hw) SocketsPerBoard=16:2(hw) CoresPerSocket=1:8(hw) ThreadsPerCore=1:2(hw)
+[2016-05-17T13:18:21.265] Message aggregation disabled
+[2016-05-17T13:18:21.265] error: can't stat gres.conf file /home/run/wx-workplace/slurm/etc/gres.conf, assuming zero resource counts
+[2016-05-17T13:18:21.268] Resource spec: Reserved system memory limit not configured for this node
+[2016-05-17T13:18:21.270] slurmd version 15.08.6 started
+[2016-05-17T13:18:21.271] slurmd started on Tue, 17 May 2016 13:18:21 +0800
+[2016-05-17T13:18:21.271] CPUs=16 Boards=1 Sockets=16 Cores=1 Threads=1 Memory=161167 TmpDisk=50273 Uptime=10962273 CPUSpecList=(null)
+[2016-05-17T13:18:43.293] _run_prolog: run job script took usec=10
+[2016-05-17T13:18:43.293] _run_prolog: prolog with lock for job 60 ran for 0 seconds
+[2016-05-17T13:18:43.294] Launching batch job 60 for UID 1001
+[2016-05-17T13:18:43.304] [60] gres: gpu state for job 60
+[2016-05-17T13:18:43.304] [60]   gres_cnt:8 node_cnt:2 type:(null)
+[2016-05-17T13:18:43.304] [60]   gres_bit_step_alloc:NULL
+[2016-05-17T13:18:43.304] [60]   gres_cnt_step_alloc:NULL
+[2016-05-17T13:18:43.304] [60]   gres_bit_alloc[0]:NULL
+[2016-05-17T13:18:43.304] [60]   gres_bit_alloc[1]:0-7
+[2016-05-17T13:20:39.041] [60] *** JOB 60 ON gpu-cluster-1 CANCELLED AT 2016-05-17T13:20:39 ***
+[2016-05-17T13:20:40.052] [60] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 15
+[2016-05-17T13:20:40.055] [60] done with job
+[2016-05-17T13:21:37.614] Slurmd shutdown completing
+[2016-05-17T13:23:13.271] Node configuration differs from hardware: CPUs=16:32(hw) Boards=1:1(hw) SocketsPerBoard=16:2(hw) CoresPerSocket=1:8(hw) ThreadsPerCore=1:2(hw)
+[2016-05-17T13:23:13.272] Message aggregation disabled
+[2016-05-17T13:23:13.272] error: can't stat gres.conf file /home/run/wx-workplace/slurm/etc/gres.conf, assuming zero resource counts
+[2016-05-17T13:23:13.275] Resource spec: Reserved system memory limit not configured for this node
+[2016-05-17T13:23:13.276] slurmd version 15.08.6 started
+[2016-05-17T13:23:13.277] slurmd started on Tue, 17 May 2016 13:23:13 +0800
+[2016-05-17T13:23:13.277] CPUs=16 Boards=1 Sockets=16 Cores=1 Threads=1 Memory=161167 TmpDisk=50273 Uptime=10962565 CPUSpecList=(null)
+[2016-05-17T13:23:35.834] _run_prolog: run job script took usec=9
+[2016-05-17T13:23:35.835] _run_prolog: prolog with lock for job 65 ran for 0 seconds
+[2016-05-17T13:23:35.835] Launching batch job 65 for UID 1001
+[2016-05-17T13:23:35.842] [65] gres: gpu state for job 65
+[2016-05-17T13:23:35.842] [65]   gres_cnt:2 node_cnt:2 type:(null)
+[2016-05-17T13:23:35.842] [65]   gres_bit_step_alloc:NULL
+[2016-05-17T13:23:35.842] [65]   gres_cnt_step_alloc:NULL
+[2016-05-17T13:23:35.842] [65]   gres_bit_alloc[0]:NULL
+[2016-05-17T13:23:35.842] [65]   gres_bit_alloc[1]:0-1
+[2016-05-17T13:25:52.157] _run_prolog: run job script took usec=12
+[2016-05-17T13:25:52.157] _run_prolog: prolog with lock for job 66 ran for 0 seconds
+[2016-05-17T13:25:52.157] Launching batch job 66 for UID 1001
+[2016-05-17T13:25:52.167] [66] gres: gpu state for job 66
+[2016-05-17T13:25:52.167] [66]   gres_cnt:1 node_cnt:2 type:(null)
+[2016-05-17T13:25:52.167] [66]   gres_bit_step_alloc:NULL
+[2016-05-17T13:25:52.167] [66]   gres_cnt_step_alloc:NULL
+[2016-05-17T13:25:52.167] [66]   gres_bit_alloc[0]:NULL
+[2016-05-17T13:25:52.167] [66]   gres_bit_alloc[1]:2
+[2016-05-17T13:26:04.653] [66] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T13:26:04.654] [66] done with job
+[2016-05-17T13:29:20.557] [65] *** JOB 65 ON gpu-cluster-1 CANCELLED AT 2016-05-17T13:29:20 ***
+[2016-05-17T13:29:21.567] [65] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 15
+[2016-05-17T13:29:21.570] [65] done with job
+[2016-05-17T13:32:52.774] Slurmd shutdown completing
+[2016-05-17T13:36:08.173] Node configuration differs from hardware: CPUs=16:32(hw) Boards=1:1(hw) SocketsPerBoard=16:2(hw) CoresPerSocket=1:8(hw) ThreadsPerCore=1:2(hw)
+[2016-05-17T13:36:08.173] Message aggregation disabled
+[2016-05-17T13:36:08.173] error: can't stat gres.conf file /home/run/wx-workplace/slurm/etc/gres.conf, assuming zero resource counts
+[2016-05-17T13:36:08.174] Resource spec: Reserved system memory limit not configured for this node
+[2016-05-17T13:36:08.175] slurmd version 15.08.6 started
+[2016-05-17T13:36:08.177] slurmd started on Tue, 17 May 2016 13:36:08 +0800
+[2016-05-17T13:36:08.177] CPUs=16 Boards=1 Sockets=16 Cores=1 Threads=1 Memory=161167 TmpDisk=50273 Uptime=10963339 CPUSpecList=(null)
+[2016-05-17T13:36:12.433] Node configuration differs from hardware: CPUs=16:32(hw) Boards=1:1(hw) SocketsPerBoard=16:2(hw) CoresPerSocket=1:8(hw) ThreadsPerCore=1:2(hw)
+[2016-05-17T13:36:12.433] Message aggregation disabled
+[2016-05-17T13:36:12.433] error: can't stat gres.conf file /home/run/wx-workplace/slurm/etc/gres.conf, assuming zero resource counts
+[2016-05-17T13:36:12.434] Resource spec: Reserved system memory limit not configured for this node
+[2016-05-17T13:36:12.435] slurmd version 15.08.6 started
+[2016-05-17T13:36:12.435] killing old slurmd[1331]
+[2016-05-17T13:36:12.437] Slurmd shutdown completing
+[2016-05-17T13:36:12.437] slurmd started on Tue, 17 May 2016 13:36:12 +0800
+[2016-05-17T13:36:12.437] CPUs=16 Boards=1 Sockets=16 Cores=1 Threads=1 Memory=161167 TmpDisk=50273 Uptime=10963344 CPUSpecList=(null)
+[2016-05-17T13:36:58.033] _run_prolog: run job script took usec=12
+[2016-05-17T13:36:58.033] _run_prolog: prolog with lock for job 67 ran for 0 seconds
+[2016-05-17T13:36:58.033] Launching batch job 67 for UID 1001
+[2016-05-17T13:36:58.036] _run_prolog: run job script took usec=10
+[2016-05-17T13:36:58.036] _run_prolog: prolog with lock for job 68 ran for 0 seconds
+[2016-05-17T13:36:58.037] _run_prolog: run job script took usec=10
+[2016-05-17T13:36:58.037] _run_prolog: prolog with lock for job 70 ran for 0 seconds
+[2016-05-17T13:36:58.038] _run_prolog: run job script took usec=8
+[2016-05-17T13:36:58.038] _run_prolog: prolog with lock for job 69 ran for 0 seconds
+[2016-05-17T13:36:58.038] _run_prolog: run job script took usec=3
+[2016-05-17T13:36:58.038] _run_prolog: prolog with lock for job 71 ran for 0 seconds
+[2016-05-17T13:36:58.039] _run_prolog: run job script took usec=9
+[2016-05-17T13:36:58.039] _run_prolog: prolog with lock for job 72 ran for 0 seconds
+[2016-05-17T13:36:58.040] _run_prolog: run job script took usec=8
+[2016-05-17T13:36:58.040] _run_prolog: prolog with lock for job 73 ran for 0 seconds
+[2016-05-17T13:36:58.040] _run_prolog: run job script took usec=10
+[2016-05-17T13:36:58.040] _run_prolog: prolog with lock for job 74 ran for 0 seconds
+[2016-05-17T13:36:58.042] [67] gres: gpu state for job 67
+[2016-05-17T13:36:58.042] [67]   gres_cnt:1 node_cnt:2 type:(null)
+[2016-05-17T13:36:58.042] [67]   gres_bit_step_alloc:NULL
+[2016-05-17T13:36:58.042] [67]   gres_cnt_step_alloc:NULL
+[2016-05-17T13:36:58.042] [67]   gres_bit_alloc[0]:NULL
+[2016-05-17T13:36:58.042] [67]   gres_bit_alloc[1]:0
+[2016-05-17T13:36:58.042] Launching batch job 68 for UID 1001
+[2016-05-17T13:36:58.054] [68] gres: gpu state for job 68
+[2016-05-17T13:36:58.054] [68]   gres_cnt:1 node_cnt:2 type:(null)
+[2016-05-17T13:36:58.054] [68]   gres_bit_step_alloc:NULL
+[2016-05-17T13:36:58.054] [68]   gres_cnt_step_alloc:NULL
+[2016-05-17T13:36:58.054] [68]   gres_bit_alloc[0]:NULL
+[2016-05-17T13:36:58.054] [68]   gres_bit_alloc[1]:1
+[2016-05-17T13:36:58.055] Launching batch job 70 for UID 1001
+[2016-05-17T13:36:58.059] [70] gres: gpu state for job 70
+[2016-05-17T13:36:58.059] [70]   gres_cnt:1 node_cnt:2 type:(null)
+[2016-05-17T13:36:58.059] [70]   gres_bit_step_alloc:NULL
+[2016-05-17T13:36:58.059] [70]   gres_cnt_step_alloc:NULL
+[2016-05-17T13:36:58.059] [70]   gres_bit_alloc[0]:NULL
+[2016-05-17T13:36:58.059] [70]   gres_bit_alloc[1]:3
+[2016-05-17T13:36:58.060] Launching batch job 69 for UID 1001
+[2016-05-17T13:36:58.065] [69] gres: gpu state for job 69
+[2016-05-17T13:36:58.065] [69]   gres_cnt:1 node_cnt:2 type:(null)
+[2016-05-17T13:36:58.065] [69]   gres_bit_step_alloc:NULL
+[2016-05-17T13:36:58.065] [69]   gres_cnt_step_alloc:NULL
+[2016-05-17T13:36:58.065] [69]   gres_bit_alloc[0]:NULL
+[2016-05-17T13:36:58.065] [69]   gres_bit_alloc[1]:2
+[2016-05-17T13:36:58.065] Launching batch job 71 for UID 1001
+[2016-05-17T13:36:58.069] [71] gres: gpu state for job 71
+[2016-05-17T13:36:58.070] [71]   gres_cnt:1 node_cnt:2 type:(null)
+[2016-05-17T13:36:58.070] [71]   gres_bit_step_alloc:NULL
+[2016-05-17T13:36:58.070] [71]   gres_cnt_step_alloc:NULL
+[2016-05-17T13:36:58.070] [71]   gres_bit_alloc[0]:NULL
+[2016-05-17T13:36:58.070] [71]   gres_bit_alloc[1]:4
+[2016-05-17T13:36:58.070] Launching batch job 72 for UID 1001
+[2016-05-17T13:36:58.076] [72] gres: gpu state for job 72
+[2016-05-17T13:36:58.076] [72]   gres_cnt:1 node_cnt:2 type:(null)
+[2016-05-17T13:36:58.076] [72]   gres_bit_step_alloc:NULL
+[2016-05-17T13:36:58.076] [72]   gres_cnt_step_alloc:NULL
+[2016-05-17T13:36:58.076] [72]   gres_bit_alloc[0]:NULL
+[2016-05-17T13:36:58.076] [72]   gres_bit_alloc[1]:5
+[2016-05-17T13:36:58.076] Launching batch job 73 for UID 1001
+[2016-05-17T13:36:58.082] [73] gres: gpu state for job 73
+[2016-05-17T13:36:58.082] [73]   gres_cnt:1 node_cnt:2 type:(null)
+[2016-05-17T13:36:58.082] [73]   gres_bit_step_alloc:NULL
+[2016-05-17T13:36:58.082] [73]   gres_cnt_step_alloc:NULL
+[2016-05-17T13:36:58.082] [73]   gres_bit_alloc[0]:NULL
+[2016-05-17T13:36:58.082] [73]   gres_bit_alloc[1]:6
+[2016-05-17T13:36:58.083] Launching batch job 74 for UID 1001
+[2016-05-17T13:36:58.090] [74] gres: gpu state for job 74
+[2016-05-17T13:36:58.090] [74]   gres_cnt:1 node_cnt:2 type:(null)
+[2016-05-17T13:36:58.090] [74]   gres_bit_step_alloc:NULL
+[2016-05-17T13:36:58.090] [74]   gres_cnt_step_alloc:NULL
+[2016-05-17T13:36:58.090] [74]   gres_bit_alloc[0]:NULL
+[2016-05-17T13:36:58.090] [74]   gres_bit_alloc[1]:7
+[2016-05-17T13:38:08.658] [67] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T13:38:08.659] [67] done with job
+[2016-05-17T13:38:09.499] [69] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T13:38:09.501] [69] done with job
+[2016-05-17T13:38:10.190] [74] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T13:38:10.191] [74] done with job
+[2016-05-17T13:38:11.990] [72] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T13:38:11.992] [72] done with job
+[2016-05-17T13:38:12.432] [73] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T13:38:12.433] [73] done with job
+[2016-05-17T13:38:12.433] [70] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T13:38:12.433] [71] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T13:38:12.435] [70] done with job
+[2016-05-17T13:38:12.435] [71] done with job
+[2016-05-17T13:38:13.242] [68] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T13:38:13.243] [68] done with job
+[2016-05-17T14:26:30.542] Slurmd shutdown completing
+[2016-05-17T14:33:26.269] Node configuration differs from hardware: CPUs=16:32(hw) Boards=1:1(hw) SocketsPerBoard=16:2(hw) CoresPerSocket=1:8(hw) ThreadsPerCore=1:2(hw)
+[2016-05-17T14:33:26.269] Message aggregation disabled
+[2016-05-17T14:33:26.269] Gres Name=gpu Type=tesla Count=8 ID=7696487 File=/dev/nvidia[0-7] CPUs=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 CpuCnt=32
+[2016-05-17T14:33:26.269] gpu 0 is device number 0
+[2016-05-17T14:33:26.269] gpu 1 is device number 1
+[2016-05-17T14:33:26.269] gpu 2 is device number 2
+[2016-05-17T14:33:26.269] gpu 3 is device number 3
+[2016-05-17T14:33:26.269] gpu 4 is device number 4
+[2016-05-17T14:33:26.269] gpu 5 is device number 5
+[2016-05-17T14:33:26.269] gpu 6 is device number 6
+[2016-05-17T14:33:26.269] gpu 7 is device number 7
+[2016-05-17T14:33:26.270] Resource spec: Reserved system memory limit not configured for this node
+[2016-05-17T14:33:26.272] slurmd version 15.08.6 started
+[2016-05-17T14:33:26.273] slurmd started on Tue, 17 May 2016 14:33:26 +0800
+[2016-05-17T14:33:26.274] CPUs=16 Boards=1 Sockets=16 Cores=1 Threads=1 Memory=161167 TmpDisk=50273 Uptime=10966778 CPUSpecList=(null)
+[2016-05-17T14:33:27.414] _run_prolog: run job script took usec=13
+[2016-05-17T14:33:27.414] _run_prolog: prolog with lock for job 75 ran for 0 seconds
+[2016-05-17T14:33:27.414] Launching batch job 75 for UID 1001
+[2016-05-17T14:33:27.416] _run_prolog: run job script took usec=10
+[2016-05-17T14:33:27.416] _run_prolog: prolog with lock for job 76 ran for 0 seconds
+[2016-05-17T14:33:27.425] [75] gres: gpu state for job 75
+[2016-05-17T14:33:27.425] [75]   gres_cnt:1 node_cnt:2 type:(null)
+[2016-05-17T14:33:27.425] [75]   gres_bit_step_alloc:NULL
+[2016-05-17T14:33:27.425] [75]   gres_cnt_step_alloc:NULL
+[2016-05-17T14:33:27.425] [75]   gres_bit_alloc[0]:0
+[2016-05-17T14:33:27.425] [75]   gres_bit_alloc[1]:NULL
+[2016-05-17T14:33:27.425] Launching batch job 76 for UID 1001
+[2016-05-17T14:33:27.431] [76] gres: gpu state for job 76
+[2016-05-17T14:33:27.431] [76]   gres_cnt:1 node_cnt:2 type:(null)
+[2016-05-17T14:33:27.431] [76]   gres_bit_step_alloc:NULL
+[2016-05-17T14:33:27.431] [76]   gres_cnt_step_alloc:NULL
+[2016-05-17T14:33:27.431] [76]   gres_bit_alloc[0]:1
+[2016-05-17T14:33:27.431] [76]   gres_bit_alloc[1]:NULL
+[2016-05-17T14:33:57.312] [75] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T14:33:57.314] [75] done with job
+[2016-05-17T14:34:05.498] _run_prolog: run job script took usec=6
+[2016-05-17T14:34:05.498] _run_prolog: prolog with lock for job 78 ran for 0 seconds
+[2016-05-17T14:34:05.498] Launching batch job 78 for UID 1001
+[2016-05-17T14:34:05.502] [78] gres: gpu state for job 78
+[2016-05-17T14:34:05.503] [78]   gres_cnt:2 node_cnt:2 type:(null)
+[2016-05-17T14:34:05.503] [78]   gres_bit_step_alloc:NULL
+[2016-05-17T14:34:05.503] [78]   gres_cnt_step_alloc:NULL
+[2016-05-17T14:34:05.503] [78]   gres_bit_alloc[0]:0,2
+[2016-05-17T14:34:05.503] [78]   gres_bit_alloc[1]:NULL
+[2016-05-17T14:34:29.816] [76] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T14:34:29.817] [76] done with job
+[2016-05-17T14:35:08.176] [78] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T14:35:08.179] [78] done with job
+[2016-05-17T14:43:59.655] Slurmd shutdown completing
+[2016-05-17T16:21:57.956] Node configuration differs from hardware: CPUs=16:32(hw) Boards=1:1(hw) SocketsPerBoard=16:2(hw) CoresPerSocket=1:8(hw) ThreadsPerCore=1:2(hw)
+[2016-05-17T16:21:57.956] Message aggregation disabled
+[2016-05-17T16:21:57.956] Gres Name=gpu Type=tesla Count=8 ID=7696487 File=/dev/nvidia[0-7] CPUs=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 CpuCnt=32
+[2016-05-17T16:21:57.956] gpu 0 is device number 0
+[2016-05-17T16:21:57.956] gpu 1 is device number 1
+[2016-05-17T16:21:57.956] gpu 2 is device number 2
+[2016-05-17T16:21:57.956] gpu 3 is device number 3
+[2016-05-17T16:21:57.956] gpu 4 is device number 4
+[2016-05-17T16:21:57.956] gpu 5 is device number 5
+[2016-05-17T16:21:57.956] gpu 6 is device number 6
+[2016-05-17T16:21:57.956] gpu 7 is device number 7
+[2016-05-17T16:21:57.957] Resource spec: Reserved system memory limit not configured for this node
+[2016-05-17T16:21:57.958] slurmd version 15.08.6 started
+[2016-05-17T16:21:57.959] slurmd started on Tue, 17 May 2016 16:21:57 +0800
+[2016-05-17T16:21:57.959] CPUs=16 Boards=1 Sockets=16 Cores=1 Threads=1 Memory=161167 TmpDisk=50273 Uptime=10973228 CPUSpecList=(null)
+[2016-05-17T16:22:16.911] _run_prolog: run job script took usec=10
+[2016-05-17T16:22:16.911] _run_prolog: prolog with lock for job 79 ran for 0 seconds
+[2016-05-17T16:22:16.911] Launching batch job 79 for UID 1001
+[2016-05-17T16:22:16.919] [79] gres: gpu state for job 79
+[2016-05-17T16:22:16.919] [79]   gres_cnt:1 node_cnt:2 type:(null)
+[2016-05-17T16:22:16.919] [79]   gres_bit_step_alloc:NULL
+[2016-05-17T16:22:16.919] [79]   gres_cnt_step_alloc:NULL
+[2016-05-17T16:22:16.919] [79]   gres_bit_alloc[0]:0
+[2016-05-17T16:22:16.919] [79]   gres_bit_alloc[1]:NULL
+[2016-05-17T16:22:17.353] [79] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 65280
+[2016-05-17T16:22:17.355] [79] done with job
+[2016-05-17T16:22:23.124] _run_prolog: run job script took usec=6
+[2016-05-17T16:22:23.124] _run_prolog: prolog with lock for job 80 ran for 0 seconds
+[2016-05-17T16:22:23.124] Launching batch job 80 for UID 1001
+[2016-05-17T16:22:23.129] [80] gres: gpu state for job 80
+[2016-05-17T16:22:23.129] [80]   gres_cnt:2 node_cnt:2 type:(null)
+[2016-05-17T16:22:23.129] [80]   gres_bit_step_alloc:NULL
+[2016-05-17T16:22:23.129] [80]   gres_cnt_step_alloc:NULL
+[2016-05-17T16:22:23.129] [80]   gres_bit_alloc[0]:0-1
+[2016-05-17T16:22:23.129] [80]   gres_bit_alloc[1]:NULL
+[2016-05-17T16:22:23.538] [80] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 65280
+[2016-05-17T16:22:23.540] [80] done with job
+[2016-05-17T16:22:26.894] _run_prolog: run job script took usec=5
+[2016-05-17T16:22:26.894] _run_prolog: prolog with lock for job 81 ran for 0 seconds
+[2016-05-17T16:22:26.894] Launching batch job 81 for UID 1001
+[2016-05-17T16:22:26.898] [81] gres: gpu state for job 81
+[2016-05-17T16:22:26.898] [81]   gres_cnt:3 node_cnt:2 type:(null)
+[2016-05-17T16:22:26.898] [81]   gres_bit_step_alloc:NULL
+[2016-05-17T16:22:26.898] [81]   gres_cnt_step_alloc:NULL
+[2016-05-17T16:22:26.898] [81]   gres_bit_alloc[0]:0-2
+[2016-05-17T16:22:26.898] [81]   gres_bit_alloc[1]:NULL
+[2016-05-17T16:22:27.294] [81] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 65280
+[2016-05-17T16:22:27.296] [81] done with job
+[2016-05-17T16:22:30.184] _run_prolog: run job script took usec=7
+[2016-05-17T16:22:30.184] _run_prolog: prolog with lock for job 82 ran for 0 seconds
+[2016-05-17T16:22:30.184] Launching batch job 82 for UID 1001
+[2016-05-17T16:22:30.188] [82] gres: gpu state for job 82
+[2016-05-17T16:22:30.188] [82]   gres_cnt:4 node_cnt:2 type:(null)
+[2016-05-17T16:22:30.188] [82]   gres_bit_step_alloc:NULL
+[2016-05-17T16:22:30.188] [82]   gres_cnt_step_alloc:NULL
+[2016-05-17T16:22:30.188] [82]   gres_bit_alloc[0]:0-3
+[2016-05-17T16:22:30.188] [82]   gres_bit_alloc[1]:NULL
+[2016-05-17T16:22:30.723] [82] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 65280
+[2016-05-17T16:22:30.725] [82] done with job
+[2016-05-17T16:22:33.248] _run_prolog: run job script took usec=8
+[2016-05-17T16:22:33.248] _run_prolog: prolog with lock for job 83 ran for 0 seconds
+[2016-05-17T16:22:33.248] Launching batch job 83 for UID 1001
+[2016-05-17T16:22:33.252] [83] gres: gpu state for job 83
+[2016-05-17T16:22:33.252] [83]   gres_cnt:5 node_cnt:2 type:(null)
+[2016-05-17T16:22:33.252] [83]   gres_bit_step_alloc:NULL
+[2016-05-17T16:22:33.252] [83]   gres_cnt_step_alloc:NULL
+[2016-05-17T16:22:33.252] [83]   gres_bit_alloc[0]:0-4
+[2016-05-17T16:22:33.252] [83]   gres_bit_alloc[1]:NULL
+[2016-05-17T16:22:33.635] [83] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 65280
+[2016-05-17T16:22:33.637] [83] done with job
+[2016-05-17T16:22:36.481] _run_prolog: run job script took usec=5
+[2016-05-17T16:22:36.481] _run_prolog: prolog with lock for job 84 ran for 0 seconds
+[2016-05-17T16:22:36.481] Launching batch job 84 for UID 1001
+[2016-05-17T16:22:36.487] [84] gres: gpu state for job 84
+[2016-05-17T16:22:36.488] [84]   gres_cnt:6 node_cnt:2 type:(null)
+[2016-05-17T16:22:36.488] [84]   gres_bit_step_alloc:NULL
+[2016-05-17T16:22:36.488] [84]   gres_cnt_step_alloc:NULL
+[2016-05-17T16:22:36.488] [84]   gres_bit_alloc[0]:0-5
+[2016-05-17T16:22:36.488] [84]   gres_bit_alloc[1]:NULL
+[2016-05-17T16:22:36.897] [84] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 65280
+[2016-05-17T16:22:36.899] [84] done with job
+[2016-05-17T16:23:13.974] Slurmd shutdown completing
+[2016-05-17T16:30:42.624] Node configuration differs from hardware: CPUs=16:32(hw) Boards=1:1(hw) SocketsPerBoard=16:2(hw) CoresPerSocket=1:8(hw) ThreadsPerCore=1:2(hw)
+[2016-05-17T16:30:42.624] Message aggregation disabled
+[2016-05-17T16:30:42.624] Gres Name=gpu Type=tesla Count=8 ID=7696487 File=/dev/nvidia[0-7] CPUs=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 CpuCnt=32
+[2016-05-17T16:30:42.624] gpu 0 is device number 0
+[2016-05-17T16:30:42.624] gpu 1 is device number 1
+[2016-05-17T16:30:42.624] gpu 2 is device number 2
+[2016-05-17T16:30:42.624] gpu 3 is device number 3
+[2016-05-17T16:30:42.624] gpu 4 is device number 4
+[2016-05-17T16:30:42.624] gpu 5 is device number 5
+[2016-05-17T16:30:42.624] gpu 6 is device number 6
+[2016-05-17T16:30:42.624] gpu 7 is device number 7
+[2016-05-17T16:30:42.625] Resource spec: Reserved system memory limit not configured for this node
+[2016-05-17T16:30:42.626] slurmd version 15.08.6 started
+[2016-05-17T16:30:42.627] slurmd started on Tue, 17 May 2016 16:30:42 +0800
+[2016-05-17T16:30:42.627] CPUs=16 Boards=1 Sockets=16 Cores=1 Threads=1 Memory=161167 TmpDisk=50273 Uptime=10973752 CPUSpecList=(null)
+[2016-05-17T16:30:52.586] _run_prolog: run job script took usec=18
+[2016-05-17T16:30:52.586] _run_prolog: prolog with lock for job 86 ran for 0 seconds
+[2016-05-17T16:30:52.586] Launching batch job 86 for UID 1001
+[2016-05-17T16:30:52.591] [86] gres: gpu state for job 86
+[2016-05-17T16:30:52.591] [86]   gres_cnt:1 node_cnt:2 type:(null)
+[2016-05-17T16:30:52.591] [86]   gres_bit_step_alloc:NULL
+[2016-05-17T16:30:52.591] [86]   gres_cnt_step_alloc:NULL
+[2016-05-17T16:30:52.591] [86]   gres_bit_alloc[0]:0
+[2016-05-17T16:30:52.591] [86]   gres_bit_alloc[1]:NULL
+[2016-05-17T16:30:57.648] _run_prolog: run job script took usec=3
+[2016-05-17T16:30:57.648] _run_prolog: prolog with lock for job 87 ran for 0 seconds
+[2016-05-17T16:30:57.648] Launching batch job 87 for UID 1001
+[2016-05-17T16:30:57.652] [87] gres: gpu state for job 87
+[2016-05-17T16:30:57.652] [87]   gres_cnt:2 node_cnt:2 type:(null)
+[2016-05-17T16:30:57.652] [87]   gres_bit_step_alloc:NULL
+[2016-05-17T16:30:57.652] [87]   gres_cnt_step_alloc:NULL
+[2016-05-17T16:30:57.652] [87]   gres_bit_alloc[0]:1-2
+[2016-05-17T16:30:57.652] [87]   gres_bit_alloc[1]:NULL
+[2016-05-17T16:30:59.386] [87] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 65280
+[2016-05-17T16:30:59.388] [87] done with job
+[2016-05-17T16:31:00.708] _run_prolog: run job script took usec=4
+[2016-05-17T16:31:00.708] _run_prolog: prolog with lock for job 88 ran for 0 seconds
+[2016-05-17T16:31:00.708] Launching batch job 88 for UID 1001
+[2016-05-17T16:31:00.713] [88] gres: gpu state for job 88
+[2016-05-17T16:31:00.713] [88]   gres_cnt:3 node_cnt:2 type:(null)
+[2016-05-17T16:31:00.713] [88]   gres_bit_step_alloc:NULL
+[2016-05-17T16:31:00.713] [88]   gres_cnt_step_alloc:NULL
+[2016-05-17T16:31:00.713] [88]   gres_bit_alloc[0]:1-3
+[2016-05-17T16:31:00.713] [88]   gres_bit_alloc[1]:NULL
+[2016-05-17T16:31:02.565] [88] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 65280
+[2016-05-17T16:31:02.566] [88] done with job
+[2016-05-17T16:31:02.572] _run_prolog: run job script took usec=5
+[2016-05-17T16:31:02.572] _run_prolog: prolog with lock for job 89 ran for 0 seconds
+[2016-05-17T16:31:02.572] Launching batch job 89 for UID 1001
+[2016-05-17T16:31:02.578] [89] gres: gpu state for job 89
+[2016-05-17T16:31:02.578] [89]   gres_cnt:4 node_cnt:2 type:(null)
+[2016-05-17T16:31:02.578] [89]   gres_bit_step_alloc:NULL
+[2016-05-17T16:31:02.578] [89]   gres_cnt_step_alloc:NULL
+[2016-05-17T16:31:02.578] [89]   gres_bit_alloc[0]:1-4
+[2016-05-17T16:31:02.578] [89]   gres_bit_alloc[1]:NULL
+[2016-05-17T16:31:04.717] [89] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 65280
+[2016-05-17T16:31:04.718] [89] done with job
+[2016-05-17T16:31:21.701] [86] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T16:31:21.702] [86] done with job
+[2016-05-17T16:34:52.883] Slurmd shutdown completing
+[2016-05-17T16:36:32.387] Node configuration differs from hardware: CPUs=16:32(hw) Boards=1:1(hw) SocketsPerBoard=16:2(hw) CoresPerSocket=1:8(hw) ThreadsPerCore=1:2(hw)
+[2016-05-17T16:36:32.387] Message aggregation disabled
+[2016-05-17T16:36:32.387] Gres Name=gpu Type=tesla Count=8 ID=7696487 File=/dev/nvidia[0-7] CPUs=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 CpuCnt=32
+[2016-05-17T16:36:32.388] gpu 0 is device number 0
+[2016-05-17T16:36:32.388] gpu 1 is device number 1
+[2016-05-17T16:36:32.388] gpu 2 is device number 2
+[2016-05-17T16:36:32.388] gpu 3 is device number 3
+[2016-05-17T16:36:32.388] gpu 4 is device number 4
+[2016-05-17T16:36:32.388] gpu 5 is device number 5
+[2016-05-17T16:36:32.388] gpu 6 is device number 6
+[2016-05-17T16:36:32.388] gpu 7 is device number 7
+[2016-05-17T16:36:32.389] Resource spec: Reserved system memory limit not configured for this node
+[2016-05-17T16:36:32.390] slurmd version 15.08.6 started
+[2016-05-17T16:36:32.390] slurmd started on Tue, 17 May 2016 16:36:32 +0800
+[2016-05-17T16:36:32.391] CPUs=16 Boards=1 Sockets=16 Cores=1 Threads=1 Memory=161167 TmpDisk=50273 Uptime=10974102 CPUSpecList=(null)
+[2016-05-17T16:37:21.682] _run_prolog: run job script took usec=5
+[2016-05-17T16:37:21.682] _run_prolog: prolog with lock for job 91 ran for 0 seconds
+[2016-05-17T16:37:21.682] Launching batch job 91 for UID 1001
+[2016-05-17T16:37:21.688] [91] gres: gpu state for job 91
+[2016-05-17T16:37:21.688] [91]   gres_cnt:1 node_cnt:2 type:(null)
+[2016-05-17T16:37:21.688] [91]   gres_bit_step_alloc:NULL
+[2016-05-17T16:37:21.688] [91]   gres_cnt_step_alloc:NULL
+[2016-05-17T16:37:21.688] [91]   gres_bit_alloc[0]:0
+[2016-05-17T16:37:21.688] [91]   gres_bit_alloc[1]:NULL
+[2016-05-17T16:37:24.740] _run_prolog: run job script took usec=6
+[2016-05-17T16:37:24.740] _run_prolog: prolog with lock for job 92 ran for 0 seconds
+[2016-05-17T16:37:24.740] Launching batch job 92 for UID 1001
+[2016-05-17T16:37:24.747] [92] gres: gpu state for job 92
+[2016-05-17T16:37:24.747] [92]   gres_cnt:2 node_cnt:2 type:(null)
+[2016-05-17T16:37:24.747] [92]   gres_bit_step_alloc:NULL
+[2016-05-17T16:37:24.747] [92]   gres_cnt_step_alloc:NULL
+[2016-05-17T16:37:24.747] [92]   gres_bit_alloc[0]:1-2
+[2016-05-17T16:37:24.747] [92]   gres_bit_alloc[1]:NULL
+[2016-05-17T16:37:27.972] _run_prolog: run job script took usec=6
+[2016-05-17T16:37:27.973] _run_prolog: prolog with lock for job 93 ran for 0 seconds
+[2016-05-17T16:37:27.973] Launching batch job 93 for UID 1001
+[2016-05-17T16:37:27.977] [93] gres: gpu state for job 93
+[2016-05-17T16:37:27.977] [93]   gres_cnt:3 node_cnt:2 type:(null)
+[2016-05-17T16:37:27.977] [93]   gres_bit_step_alloc:NULL
+[2016-05-17T16:37:27.977] [93]   gres_cnt_step_alloc:NULL
+[2016-05-17T16:37:27.977] [93]   gres_bit_alloc[0]:3-5
+[2016-05-17T16:37:27.977] [93]   gres_bit_alloc[1]:NULL
+[2016-05-17T16:38:03.794] [91] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T16:38:03.795] [91] done with job
+[2016-05-17T16:38:09.240] [92] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T16:38:09.401] [92] done with job
+[2016-05-17T16:38:09.407] _run_prolog: run job script took usec=5
+[2016-05-17T16:38:09.407] _run_prolog: prolog with lock for job 94 ran for 0 seconds
+[2016-05-17T16:38:09.407] Launching batch job 94 for UID 1001
+[2016-05-17T16:38:09.412] [94] gres: gpu state for job 94
+[2016-05-17T16:38:09.412] [94]   gres_cnt:4 node_cnt:2 type:(null)
+[2016-05-17T16:38:09.412] [94]   gres_bit_step_alloc:NULL
+[2016-05-17T16:38:09.412] [94]   gres_cnt_step_alloc:NULL
+[2016-05-17T16:38:09.412] [94]   gres_bit_alloc[0]:0-2,6
+[2016-05-17T16:38:09.412] [94]   gres_bit_alloc[1]:NULL
+[2016-05-17T16:38:16.929] [93] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T16:38:16.930] [93] done with job
+[2016-05-17T16:39:07.930] [94] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T16:39:07.932] [94] done with job
+[2016-05-17T16:39:42.314] Slurmd shutdown completing
+[2016-05-17T16:40:05.292] Node configuration differs from hardware: CPUs=16:32(hw) Boards=1:1(hw) SocketsPerBoard=16:2(hw) CoresPerSocket=1:8(hw) ThreadsPerCore=1:2(hw)
+[2016-05-17T16:40:05.292] Message aggregation disabled
+[2016-05-17T16:40:05.292] Gres Name=gpu Type=tesla Count=8 ID=7696487 File=/dev/nvidia[0-7] CPUs=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 CpuCnt=32
+[2016-05-17T16:40:05.292] gpu 0 is device number 0
+[2016-05-17T16:40:05.292] gpu 1 is device number 1
+[2016-05-17T16:40:05.292] gpu 2 is device number 2
+[2016-05-17T16:40:05.292] gpu 3 is device number 3
+[2016-05-17T16:40:05.292] gpu 4 is device number 4
+[2016-05-17T16:40:05.292] gpu 5 is device number 5
+[2016-05-17T16:40:05.292] gpu 6 is device number 6
+[2016-05-17T16:40:05.292] gpu 7 is device number 7
+[2016-05-17T16:40:05.293] Resource spec: Reserved system memory limit not configured for this node
+[2016-05-17T16:40:05.294] slurmd version 15.08.6 started
+[2016-05-17T16:40:05.295] slurmd started on Tue, 17 May 2016 16:40:05 +0800
+[2016-05-17T16:40:05.295] CPUs=16 Boards=1 Sockets=16 Cores=1 Threads=1 Memory=161167 TmpDisk=50273 Uptime=10974315 CPUSpecList=(null)
+[2016-05-17T16:42:52.023] _run_prolog: run job script took usec=4
+[2016-05-17T16:42:52.023] _run_prolog: prolog with lock for job 96 ran for 0 seconds
+[2016-05-17T16:42:52.023] Launching batch job 96 for UID 1001
+[2016-05-17T16:42:52.024] _run_prolog: run job script took usec=3
+[2016-05-17T16:42:52.024] _run_prolog: prolog with lock for job 97 ran for 0 seconds
+[2016-05-17T16:42:52.024] _run_prolog: run job script took usec=4
+[2016-05-17T16:42:52.024] _run_prolog: prolog with lock for job 98 ran for 0 seconds
+[2016-05-17T16:42:52.024] _run_prolog: run job script took usec=4
+[2016-05-17T16:42:52.024] _run_prolog: prolog with lock for job 100 ran for 0 seconds
+[2016-05-17T16:42:52.024] _run_prolog: run job script took usec=4
+[2016-05-17T16:42:52.024] _run_prolog: prolog with lock for job 99 ran for 0 seconds
+[2016-05-17T16:42:52.027] [96] gres: gpu state for job 96
+[2016-05-17T16:42:52.027] [96]   gres_cnt:1 node_cnt:2 type:(null)
+[2016-05-17T16:42:52.027] [96]   gres_bit_step_alloc:NULL
+[2016-05-17T16:42:52.027] [96]   gres_cnt_step_alloc:NULL
+[2016-05-17T16:42:52.027] [96]   gres_bit_alloc[0]:0
+[2016-05-17T16:42:52.027] [96]   gres_bit_alloc[1]:NULL
+[2016-05-17T16:42:52.027] Launching batch job 97 for UID 1001
+[2016-05-17T16:42:52.032] [97] gres: gpu state for job 97
+[2016-05-17T16:42:52.032] [97]   gres_cnt:2 node_cnt:2 type:(null)
+[2016-05-17T16:42:52.032] [97]   gres_bit_step_alloc:NULL
+[2016-05-17T16:42:52.032] [97]   gres_cnt_step_alloc:NULL
+[2016-05-17T16:42:52.032] [97]   gres_bit_alloc[0]:1-2
+[2016-05-17T16:42:52.032] [97]   gres_bit_alloc[1]:NULL
+[2016-05-17T16:42:52.032] Launching batch job 98 for UID 1001
+[2016-05-17T16:42:52.037] [98] gres: gpu state for job 98
+[2016-05-17T16:42:52.037] [98]   gres_cnt:3 node_cnt:2 type:(null)
+[2016-05-17T16:42:52.037] [98]   gres_bit_step_alloc:NULL
+[2016-05-17T16:42:52.037] [98]   gres_cnt_step_alloc:NULL
+[2016-05-17T16:42:52.037] [98]   gres_bit_alloc[0]:3-5
+[2016-05-17T16:42:52.037] [98]   gres_bit_alloc[1]:NULL
+[2016-05-17T16:42:52.037] Launching batch job 100 for UID 1001
+[2016-05-17T16:42:52.042] [100] gres: gpu state for job 100
+[2016-05-17T16:42:52.042] [100]   gres_cnt:5 node_cnt:2 type:(null)
+[2016-05-17T16:42:52.042] [100]   gres_bit_step_alloc:NULL
+[2016-05-17T16:42:52.042] [100]   gres_cnt_step_alloc:NULL
+[2016-05-17T16:42:52.042] [100]   gres_bit_alloc[0]:NULL
+[2016-05-17T16:42:52.042] [100]   gres_bit_alloc[1]:2-6
+[2016-05-17T16:42:52.042] Launching batch job 99 for UID 1001
+[2016-05-17T16:42:52.047] [99] gres: gpu state for job 99
+[2016-05-17T16:42:52.047] [99]   gres_cnt:4 node_cnt:2 type:(null)
+[2016-05-17T16:42:52.047] [99]   gres_bit_step_alloc:NULL
+[2016-05-17T16:42:52.047] [99]   gres_cnt_step_alloc:NULL
+[2016-05-17T16:42:52.047] [99]   gres_bit_alloc[0]:6-7
+[2016-05-17T16:42:52.047] [99]   gres_bit_alloc[1]:0-1
+[2016-05-17T16:43:45.910] [96] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T16:43:45.912] [96] done with job
+[2016-05-17T16:43:52.099] [97] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T16:43:52.100] [97] done with job
+[2016-05-17T16:43:54.250] [98] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T16:43:54.252] [98] done with job
+[2016-05-17T16:43:54.259] _run_prolog: run job script took usec=5
+[2016-05-17T16:43:54.259] _run_prolog: prolog with lock for job 101 ran for 0 seconds
+[2016-05-17T16:43:54.259] Launching batch job 101 for UID 1001
+[2016-05-17T16:43:54.264] [101] gres: gpu state for job 101
+[2016-05-17T16:43:54.264] [101]   gres_cnt:6 node_cnt:2 type:(null)
+[2016-05-17T16:43:54.264] [101]   gres_bit_step_alloc:NULL
+[2016-05-17T16:43:54.264] [101]   gres_cnt_step_alloc:NULL
+[2016-05-17T16:43:54.264] [101]   gres_bit_alloc[0]:0-5
+[2016-05-17T16:43:54.264] [101]   gres_bit_alloc[1]:NULL
+[2016-05-17T16:44:05.696] [99] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T16:44:05.698] [99] done with job
+[2016-05-17T16:44:29.292] [100] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T16:44:29.294] [100] done with job
+[2016-05-17T16:44:53.075] [101] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T16:44:53.077] [101] done with job
+[2016-05-17T16:49:09.626] _run_prolog: run job script took usec=5
+[2016-05-17T16:49:09.626] _run_prolog: prolog with lock for job 102 ran for 0 seconds
+[2016-05-17T16:49:09.627] Launching batch job 102 for UID 1001
+[2016-05-17T16:49:09.627] _run_prolog: run job script took usec=4
+[2016-05-17T16:49:09.627] _run_prolog: prolog with lock for job 103 ran for 0 seconds
+[2016-05-17T16:49:09.628] _run_prolog: run job script took usec=4
+[2016-05-17T16:49:09.628] _run_prolog: prolog with lock for job 104 ran for 0 seconds
+[2016-05-17T16:49:09.631] [102] gres: gpu state for job 102
+[2016-05-17T16:49:09.631] [102]   gres_cnt:1 node_cnt:2 type:(null)
+[2016-05-17T16:49:09.631] [102]   gres_bit_step_alloc:NULL
+[2016-05-17T16:49:09.631] [102]   gres_cnt_step_alloc:NULL
+[2016-05-17T16:49:09.631] [102]   gres_bit_alloc[0]:0
+[2016-05-17T16:49:09.631] [102]   gres_bit_alloc[1]:NULL
+[2016-05-17T16:49:09.631] Launching batch job 103 for UID 1001
+[2016-05-17T16:49:09.636] [103] gres: gpu state for job 103
+[2016-05-17T16:49:09.636] [103]   gres_cnt:2 node_cnt:2 type:(null)
+[2016-05-17T16:49:09.636] [103]   gres_bit_step_alloc:NULL
+[2016-05-17T16:49:09.636] [103]   gres_cnt_step_alloc:NULL
+[2016-05-17T16:49:09.636] [103]   gres_bit_alloc[0]:1-2
+[2016-05-17T16:49:09.636] [103]   gres_bit_alloc[1]:NULL
+[2016-05-17T16:49:09.636] Launching batch job 104 for UID 1001
+[2016-05-17T16:49:09.640] [104] gres: gpu state for job 104
+[2016-05-17T16:49:09.640] [104]   gres_cnt:3 node_cnt:2 type:(null)
+[2016-05-17T16:49:09.640] [104]   gres_bit_step_alloc:NULL
+[2016-05-17T16:49:09.640] [104]   gres_cnt_step_alloc:NULL
+[2016-05-17T16:49:09.640] [104]   gres_bit_alloc[0]:3-5
+[2016-05-17T16:49:09.640] [104]   gres_bit_alloc[1]:NULL
+[2016-05-17T16:50:21.525] [104] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 65280
+[2016-05-17T16:50:21.527] [104] done with job
+[2016-05-17T16:50:21.533] _run_prolog: run job script took usec=6
+[2016-05-17T16:50:21.533] _run_prolog: prolog with lock for job 105 ran for 0 seconds
+[2016-05-17T16:50:21.533] Launching batch job 105 for UID 1001
+[2016-05-17T16:50:21.535] _run_prolog: run job script took usec=5
+[2016-05-17T16:50:21.535] _run_prolog: prolog with lock for job 106 ran for 0 seconds
+[2016-05-17T16:50:21.539] [105] gres: gpu state for job 105
+[2016-05-17T16:50:21.539] [105]   gres_cnt:4 node_cnt:2 type:(null)
+[2016-05-17T16:50:21.539] [105]   gres_bit_step_alloc:NULL
+[2016-05-17T16:50:21.539] [105]   gres_cnt_step_alloc:NULL
+[2016-05-17T16:50:21.539] [105]   gres_bit_alloc[0]:3-6
+[2016-05-17T16:50:21.539] [105]   gres_bit_alloc[1]:NULL
+[2016-05-17T16:50:21.539] Launching batch job 106 for UID 1001
+[2016-05-17T16:50:21.544] [106] gres: gpu state for job 106
+[2016-05-17T16:50:21.544] [106]   gres_cnt:5 node_cnt:2 type:(null)
+[2016-05-17T16:50:21.544] [106]   gres_bit_step_alloc:NULL
+[2016-05-17T16:50:21.544] [106]   gres_cnt_step_alloc:NULL
+[2016-05-17T16:50:21.544] [106]   gres_bit_alloc[0]:7
+[2016-05-17T16:50:21.544] [106]   gres_bit_alloc[1]:7
+[2016-05-17T16:50:23.073] [102] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T16:50:23.074] [102] done with job
+[2016-05-17T16:50:25.364] [103] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T16:50:25.366] [103] done with job
+[2016-05-17T16:50:25.373] _run_prolog: run job script took usec=4
+[2016-05-17T16:50:25.373] _run_prolog: prolog with lock for job 107 ran for 0 seconds
+[2016-05-17T16:50:25.373] Launching batch job 107 for UID 1001
+[2016-05-17T16:50:25.378] [107] gres: gpu state for job 107
+[2016-05-17T16:50:25.378] [107]   gres_cnt:6 node_cnt:2 type:(null)
+[2016-05-17T16:50:25.378] [107]   gres_bit_step_alloc:NULL
+[2016-05-17T16:50:25.378] [107]   gres_cnt_step_alloc:NULL
+[2016-05-17T16:50:25.378] [107]   gres_bit_alloc[0]:0-2
+[2016-05-17T16:50:25.378] [107]   gres_bit_alloc[1]:
+[2016-05-17T16:50:26.131] [107] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 34816
+[2016-05-17T16:50:26.132] [107] done with job
+[2016-05-17T16:51:08.123] [106] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T16:51:08.124] [106] done with job
+[2016-05-17T16:51:53.426] [105] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T16:51:53.427] [105] done with job
+[2016-05-17T16:58:24.061] _run_prolog: run job script took usec=16
+[2016-05-17T16:58:24.061] _run_prolog: prolog with lock for job 108 ran for 0 seconds
+[2016-05-17T16:58:24.061] Launching batch job 108 for UID 1001
+[2016-05-17T16:58:24.063] _run_prolog: run job script took usec=7
+[2016-05-17T16:58:24.064] _run_prolog: prolog with lock for job 109 ran for 0 seconds
+[2016-05-17T16:58:24.064] _run_prolog: run job script took usec=6
+[2016-05-17T16:58:24.064] _run_prolog: prolog with lock for job 110 ran for 0 seconds
+[2016-05-17T16:58:24.064] _run_prolog: run job script took usec=5
+[2016-05-17T16:58:24.064] _run_prolog: prolog with lock for job 111 ran for 0 seconds
+[2016-05-17T16:58:24.064] _run_prolog: run job script took usec=6
+[2016-05-17T16:58:24.064] _run_prolog: prolog with lock for job 112 ran for 0 seconds
+[2016-05-17T16:58:24.065] _run_prolog: run job script took usec=6
+[2016-05-17T16:58:24.065] _run_prolog: prolog with lock for job 113 ran for 0 seconds
+[2016-05-17T16:58:24.069] [108] gres: gpu state for job 108
+[2016-05-17T16:58:24.069] [108]   gres_cnt:1 node_cnt:2 type:(null)
+[2016-05-17T16:58:24.069] [108]   gres_bit_step_alloc:NULL
+[2016-05-17T16:58:24.069] [108]   gres_cnt_step_alloc:NULL
+[2016-05-17T16:58:24.069] [108]   gres_bit_alloc[0]:0
+[2016-05-17T16:58:24.069] [108]   gres_bit_alloc[1]:NULL
+[2016-05-17T16:58:24.070] Launching batch job 109 for UID 1001
+[2016-05-17T16:58:24.080] [109] gres: gpu state for job 109
+[2016-05-17T16:58:24.080] [109]   gres_cnt:2 node_cnt:2 type:(null)
+[2016-05-17T16:58:24.080] [109]   gres_bit_step_alloc:NULL
+[2016-05-17T16:58:24.080] [109]   gres_cnt_step_alloc:NULL
+[2016-05-17T16:58:24.080] [109]   gres_bit_alloc[0]:1-2
+[2016-05-17T16:58:24.080] [109]   gres_bit_alloc[1]:NULL
+[2016-05-17T16:58:24.081] Launching batch job 110 for UID 1001
+[2016-05-17T16:58:24.090] [110] gres: gpu state for job 110
+[2016-05-17T16:58:24.090] [110]   gres_cnt:3 node_cnt:2 type:(null)
+[2016-05-17T16:58:24.090] [110]   gres_bit_step_alloc:NULL
+[2016-05-17T16:58:24.090] [110]   gres_cnt_step_alloc:NULL
+[2016-05-17T16:58:24.090] [110]   gres_bit_alloc[0]:3-5
+[2016-05-17T16:58:24.090] [110]   gres_bit_alloc[1]:NULL
+[2016-05-17T16:58:24.090] Launching batch job 111 for UID 1001
+[2016-05-17T16:58:24.098] [111] gres: gpu state for job 111
+[2016-05-17T16:58:24.098] [111]   gres_cnt:4 node_cnt:2 type:(null)
+[2016-05-17T16:58:24.098] [111]   gres_bit_step_alloc:NULL
+[2016-05-17T16:58:24.098] [111]   gres_cnt_step_alloc:NULL
+[2016-05-17T16:58:24.098] [111]   gres_bit_alloc[0]:6-7
+[2016-05-17T16:58:24.098] [111]   gres_bit_alloc[1]:7
+[2016-05-17T16:58:24.098] Launching batch job 112 for UID 1001
+[2016-05-17T16:58:24.104] [112] gres: gpu state for job 112
+[2016-05-17T16:58:24.104] [112]   gres_cnt:5 node_cnt:2 type:(null)
+[2016-05-17T16:58:24.104] [112]   gres_bit_step_alloc:NULL
+[2016-05-17T16:58:24.104] [112]   gres_cnt_step_alloc:NULL
+[2016-05-17T16:58:24.104] [112]   gres_bit_alloc[0]:NULL
+[2016-05-17T16:58:24.104] [112]   gres_bit_alloc[1]:
+[2016-05-17T16:58:24.104] Launching batch job 113 for UID 1001
+[2016-05-17T16:58:24.110] [113] gres: gpu state for job 113
+[2016-05-17T16:58:24.110] [113]   gres_cnt:6 node_cnt:2 type:(null)
+[2016-05-17T16:58:24.110] [113]   gres_bit_step_alloc:NULL
+[2016-05-17T16:58:24.110] [113]   gres_cnt_step_alloc:NULL
+[2016-05-17T16:58:24.110] [113]   gres_bit_alloc[0]:NULL
+[2016-05-17T16:58:24.110] [113]   gres_bit_alloc[1]:
+[2016-05-17T16:58:26.774] [113] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 65280
+[2016-05-17T16:58:26.774] [112] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 65280
+[2016-05-17T16:58:26.776] [113] done with job
+[2016-05-17T16:58:26.776] [112] done with job
+[2016-05-17T16:59:52.044] [108] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T16:59:52.045] [108] done with job
+[2016-05-17T16:59:59.180] [109] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T16:59:59.182] [109] done with job
+[2016-05-17T16:59:59.573] [111] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T16:59:59.575] [111] done with job
+[2016-05-17T17:00:00.490] [110] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T17:00:00.492] [110] done with job
+[2016-05-17T17:00:56.490] _run_prolog: run job script took usec=10
+[2016-05-17T17:00:56.490] _run_prolog: prolog with lock for job 114 ran for 0 seconds
+[2016-05-17T17:00:56.490] Launching batch job 114 for UID 1001
+[2016-05-17T17:00:56.500] [114] gres: gpu state for job 114
+[2016-05-17T17:00:56.500] [114]   gres_cnt:16 node_cnt:2 type:(null)
+[2016-05-17T17:00:56.500] [114]   gres_bit_step_alloc:NULL
+[2016-05-17T17:00:56.500] [114]   gres_cnt_step_alloc:NULL
+[2016-05-17T17:00:56.500] [114]   gres_bit_alloc[0]:0-7
+[2016-05-17T17:00:56.500] [114]   gres_bit_alloc[1]:7
+[2016-05-17T17:02:43.182] [114] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T17:02:43.184] [114] done with job
+[2016-05-17T17:02:58.025] Slurmd shutdown completing
+[2016-05-17T17:08:24.884] Node configuration differs from hardware: CPUs=16:32(hw) Boards=1:1(hw) SocketsPerBoard=16:2(hw) CoresPerSocket=1:8(hw) ThreadsPerCore=1:2(hw)
+[2016-05-17T17:08:24.885] Message aggregation disabled
+[2016-05-17T17:08:24.885] Gres Name=gpu Type=tesla Count=8 ID=7696487 File=/dev/nvidia[0-7] CPUs=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 CpuCnt=32
+[2016-05-17T17:08:24.885] gpu 0 is device number 0
+[2016-05-17T17:08:24.885] gpu 1 is device number 1
+[2016-05-17T17:08:24.885] gpu 2 is device number 2
+[2016-05-17T17:08:24.885] gpu 3 is device number 3
+[2016-05-17T17:08:24.885] gpu 4 is device number 4
+[2016-05-17T17:08:24.885] gpu 5 is device number 5
+[2016-05-17T17:08:24.885] gpu 6 is device number 6
+[2016-05-17T17:08:24.885] gpu 7 is device number 7
+[2016-05-17T17:08:24.886] Resource spec: Reserved system memory limit not configured for this node
+[2016-05-17T17:08:24.887] slurmd version 15.08.6 started
+[2016-05-17T17:08:24.889] slurmd started on Tue, 17 May 2016 17:08:24 +0800
+[2016-05-17T17:08:24.889] CPUs=16 Boards=1 Sockets=16 Cores=1 Threads=1 Memory=161167 TmpDisk=50273 Uptime=10976014 CPUSpecList=(null)
+[2016-05-17T17:08:57.277] _run_prolog: run job script took usec=6
+[2016-05-17T17:08:57.277] _run_prolog: prolog with lock for job 116 ran for 0 seconds
+[2016-05-17T17:08:57.277] Launching batch job 116 for UID 1001
+[2016-05-17T17:08:57.287] [116] gres: gpu state for job 116
+[2016-05-17T17:08:57.287] [116]   gres_cnt:16 node_cnt:2 type:(null)
+[2016-05-17T17:08:57.287] [116]   gres_bit_step_alloc:NULL
+[2016-05-17T17:08:57.287] [116]   gres_cnt_step_alloc:NULL
+[2016-05-17T17:08:57.287] [116]   gres_bit_alloc[0]:0-7
+[2016-05-17T17:08:57.287] [116]   gres_bit_alloc[1]:0-7
+[2016-05-17T17:09:53.392] [116] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T17:09:53.395] [116] done with job
+[2016-05-17T17:11:24.258] _run_prolog: run job script took usec=5
+[2016-05-17T17:11:24.258] _run_prolog: prolog with lock for job 118 ran for 0 seconds
+[2016-05-17T17:11:24.258] Launching batch job 118 for UID 1001
+[2016-05-17T17:11:24.264] [118] gres: gpu state for job 118
+[2016-05-17T17:11:24.264] [118]   gres_cnt:1 node_cnt:2 type:(null)
+[2016-05-17T17:11:24.264] [118]   gres_bit_step_alloc:NULL
+[2016-05-17T17:11:24.264] [118]   gres_cnt_step_alloc:NULL
+[2016-05-17T17:11:24.264] [118]   gres_bit_alloc[0]:0
+[2016-05-17T17:11:24.264] [118]   gres_bit_alloc[1]:NULL
+[2016-05-17T17:12:02.563] [118] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T17:12:02.566] [118] done with job
+[2016-05-17T17:12:32.489] _run_prolog: run job script took usec=12
+[2016-05-17T17:12:32.489] _run_prolog: prolog with lock for job 119 ran for 0 seconds
+[2016-05-17T17:12:32.489] Launching batch job 119 for UID 1001
+[2016-05-17T17:12:32.491] _run_prolog: run job script took usec=14
+[2016-05-17T17:12:32.491] _run_prolog: prolog with lock for job 120 ran for 0 seconds
+[2016-05-17T17:12:32.492] _run_prolog: run job script took usec=4
+[2016-05-17T17:12:32.492] _run_prolog: prolog with lock for job 121 ran for 0 seconds
+[2016-05-17T17:12:32.500] [119] gres: gpu state for job 119
+[2016-05-17T17:12:32.500] [119]   gres_cnt:1 node_cnt:2 type:(null)
+[2016-05-17T17:12:32.500] [119]   gres_bit_step_alloc:NULL
+[2016-05-17T17:12:32.500] [119]   gres_cnt_step_alloc:NULL
+[2016-05-17T17:12:32.500] [119]   gres_bit_alloc[0]:0
+[2016-05-17T17:12:32.500] [119]   gres_bit_alloc[1]:NULL
+[2016-05-17T17:12:32.500] Launching batch job 120 for UID 1001
+[2016-05-17T17:12:32.509] [120] gres: gpu state for job 120
+[2016-05-17T17:12:32.509] [120]   gres_cnt:2 node_cnt:2 type:(null)
+[2016-05-17T17:12:32.509] [120]   gres_bit_step_alloc:NULL
+[2016-05-17T17:12:32.509] [120]   gres_cnt_step_alloc:NULL
+[2016-05-17T17:12:32.509] [120]   gres_bit_alloc[0]:1-2
+[2016-05-17T17:12:32.509] [120]   gres_bit_alloc[1]:NULL
+[2016-05-17T17:12:32.509] Launching batch job 121 for UID 1001
+[2016-05-17T17:12:32.514] [121] gres: gpu state for job 121
+[2016-05-17T17:12:32.514] [121]   gres_cnt:3 node_cnt:2 type:(null)
+[2016-05-17T17:12:32.514] [121]   gres_bit_step_alloc:NULL
+[2016-05-17T17:12:32.514] [121]   gres_cnt_step_alloc:NULL
+[2016-05-17T17:12:32.514] [121]   gres_bit_alloc[0]:3-5
+[2016-05-17T17:12:32.514] [121]   gres_bit_alloc[1]:NULL
+[2016-05-17T17:13:41.666] [119] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T17:13:41.667] [119] done with job
+[2016-05-17T17:13:41.674] _run_prolog: run job script took usec=5
+[2016-05-17T17:13:41.674] _run_prolog: prolog with lock for job 122 ran for 0 seconds
+[2016-05-17T17:13:41.674] Launching batch job 122 for UID 1001
+[2016-05-17T17:13:41.679] [122] gres: gpu state for job 122
+[2016-05-17T17:13:41.680] [122]   gres_cnt:4 node_cnt:2 type:(null)
+[2016-05-17T17:13:41.680] [122]   gres_bit_step_alloc:NULL
+[2016-05-17T17:13:41.680] [122]   gres_cnt_step_alloc:NULL
+[2016-05-17T17:13:41.680] [122]   gres_bit_alloc[0]:0,6-7
+[2016-05-17T17:13:41.680] [122]   gres_bit_alloc[1]:
+[2016-05-17T17:13:42.349] [122] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 34816
+[2016-05-17T17:13:42.350] [122] done with job
+[2016-05-17T17:13:42.357] _run_prolog: run job script took usec=5
+[2016-05-17T17:13:42.357] _run_prolog: prolog with lock for job 123 ran for 0 seconds
+[2016-05-17T17:13:42.357] Launching batch job 123 for UID 1001
+[2016-05-17T17:13:42.362] [123] gres: gpu state for job 123
+[2016-05-17T17:13:42.362] [123]   gres_cnt:5 node_cnt:2 type:(null)
+[2016-05-17T17:13:42.362] [123]   gres_bit_step_alloc:NULL
+[2016-05-17T17:13:42.362] [123]   gres_cnt_step_alloc:NULL
+[2016-05-17T17:13:42.362] [123]   gres_bit_alloc[0]:0,6-7
+[2016-05-17T17:13:42.362] [123]   gres_bit_alloc[1]:
+[2016-05-17T17:13:43.058] [123] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 34816
+[2016-05-17T17:13:43.060] [123] done with job
+[2016-05-17T17:13:44.011] [120] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T17:13:44.012] [120] done with job
+[2016-05-17T17:13:44.020] _run_prolog: run job script took usec=6
+[2016-05-17T17:13:44.020] _run_prolog: prolog with lock for job 124 ran for 0 seconds
+[2016-05-17T17:13:44.020] Launching batch job 124 for UID 1001
+[2016-05-17T17:13:44.025] [124] gres: gpu state for job 124
+[2016-05-17T17:13:44.025] [124]   gres_cnt:6 node_cnt:2 type:(null)
+[2016-05-17T17:13:44.025] [124]   gres_bit_step_alloc:NULL
+[2016-05-17T17:13:44.025] [124]   gres_cnt_step_alloc:NULL
+[2016-05-17T17:13:44.025] [124]   gres_bit_alloc[0]:0-2,6-7
+[2016-05-17T17:13:44.025] [124]   gres_bit_alloc[1]:
+[2016-05-17T17:13:44.679] [124] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 34816
+[2016-05-17T17:13:44.680] [124] done with job
+[2016-05-17T17:13:47.629] [121] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T17:13:47.631] [121] done with job
+[2016-05-17T17:17:40.703] Slurmd shutdown completing
+[2016-05-17T17:23:27.255] Node configuration differs from hardware: CPUs=16:32(hw) Boards=1:1(hw) SocketsPerBoard=16:2(hw) CoresPerSocket=1:8(hw) ThreadsPerCore=1:2(hw)
+[2016-05-17T17:23:27.256] Message aggregation disabled
+[2016-05-17T17:23:27.256] Gres Name=gpu Type=tesla Count=8 ID=7696487 File=/dev/nvidia[0-7] CPUs=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 CpuCnt=32
+[2016-05-17T17:23:27.256] gpu 0 is device number 0
+[2016-05-17T17:23:27.256] gpu 1 is device number 1
+[2016-05-17T17:23:27.256] gpu 2 is device number 2
+[2016-05-17T17:23:27.256] gpu 3 is device number 3
+[2016-05-17T17:23:27.256] gpu 4 is device number 4
+[2016-05-17T17:23:27.256] gpu 5 is device number 5
+[2016-05-17T17:23:27.256] gpu 6 is device number 6
+[2016-05-17T17:23:27.256] gpu 7 is device number 7
+[2016-05-17T17:23:27.257] Resource spec: Reserved system memory limit not configured for this node
+[2016-05-17T17:23:27.258] slurmd version 15.08.6 started
+[2016-05-17T17:23:27.259] slurmd started on Tue, 17 May 2016 17:23:27 +0800
+[2016-05-17T17:23:27.259] CPUs=16 Boards=1 Sockets=16 Cores=1 Threads=1 Memory=161167 TmpDisk=50273 Uptime=10976917 CPUSpecList=(null)
+[2016-05-17T17:23:45.057] _run_prolog: run job script took usec=11
+[2016-05-17T17:23:45.057] _run_prolog: prolog with lock for job 126 ran for 0 seconds
+[2016-05-17T17:23:45.057] Launching batch job 126 for UID 1001
+[2016-05-17T17:23:45.064] [126] gres: gpu state for job 126
+[2016-05-17T17:23:45.064] [126]   gres_cnt:16 node_cnt:2 type:(null)
+[2016-05-17T17:23:45.064] [126]   gres_bit_step_alloc:NULL
+[2016-05-17T17:23:45.064] [126]   gres_cnt_step_alloc:NULL
+[2016-05-17T17:23:45.064] [126]   gres_bit_alloc[0]:0-7
+[2016-05-17T17:23:45.064] [126]   gres_bit_alloc[1]:0-7
+[2016-05-17T17:25:37.859] [126] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T17:25:37.862] [126] done with job
+[2016-05-17T17:25:37.868] _run_prolog: run job script took usec=4
+[2016-05-17T17:25:37.868] _run_prolog: prolog with lock for job 127 ran for 0 seconds
+[2016-05-17T17:25:37.868] Launching batch job 127 for UID 1001
+[2016-05-17T17:25:37.876] [127] gres: gpu state for job 127
+[2016-05-17T17:25:37.876] [127]   gres_cnt:16 node_cnt:2 type:(null)
+[2016-05-17T17:25:37.876] [127]   gres_bit_step_alloc:NULL
+[2016-05-17T17:25:37.876] [127]   gres_cnt_step_alloc:NULL
+[2016-05-17T17:25:37.876] [127]   gres_bit_alloc[0]:0-7
+[2016-05-17T17:25:37.876] [127]   gres_bit_alloc[1]:0-7
+[2016-05-17T17:27:32.604] [127] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T17:27:32.607] [127] done with job
+[2016-05-17T18:07:30.246] _run_prolog: run job script took usec=13
+[2016-05-17T18:07:30.246] _run_prolog: prolog with lock for job 128 ran for 0 seconds
+[2016-05-17T18:07:30.246] Launching batch job 128 for UID 1001
+[2016-05-17T18:07:30.248] _run_prolog: run job script took usec=9
+[2016-05-17T18:07:30.248] _run_prolog: prolog with lock for job 129 ran for 0 seconds
+[2016-05-17T18:07:30.249] _run_prolog: run job script took usec=10
+[2016-05-17T18:07:30.249] _run_prolog: prolog with lock for job 130 ran for 0 seconds
+[2016-05-17T18:07:30.249] _run_prolog: run job script took usec=10
+[2016-05-17T18:07:30.249] _run_prolog: prolog with lock for job 131 ran for 0 seconds
+[2016-05-17T18:07:30.255] [128] gres: gpu state for job 128
+[2016-05-17T18:07:30.256] [128]   gres_cnt:1 node_cnt:2 type:(null)
+[2016-05-17T18:07:30.256] [128]   gres_bit_step_alloc:NULL
+[2016-05-17T18:07:30.256] [128]   gres_cnt_step_alloc:NULL
+[2016-05-17T18:07:30.256] [128]   gres_bit_alloc[0]:0
+[2016-05-17T18:07:30.256] [128]   gres_bit_alloc[1]:NULL
+[2016-05-17T18:07:30.256] _run_prolog: run job script took usec=3
+[2016-05-17T18:07:30.256] _run_prolog: prolog with lock for job 132 ran for 0 seconds
+[2016-05-17T18:07:30.256] Launching batch job 129 for UID 1001
+[2016-05-17T18:07:30.266] [129] gres: gpu state for job 129
+[2016-05-17T18:07:30.266] [129]   gres_cnt:2 node_cnt:2 type:(null)
+[2016-05-17T18:07:30.266] [129]   gres_bit_step_alloc:NULL
+[2016-05-17T18:07:30.266] [129]   gres_cnt_step_alloc:NULL
+[2016-05-17T18:07:30.266] [129]   gres_bit_alloc[0]:1-2
+[2016-05-17T18:07:30.266] [129]   gres_bit_alloc[1]:NULL
+[2016-05-17T18:07:30.266] Launching batch job 130 for UID 1001
+[2016-05-17T18:07:30.271] [130] gres: gpu state for job 130
+[2016-05-17T18:07:30.271] [130]   gres_cnt:3 node_cnt:2 type:(null)
+[2016-05-17T18:07:30.271] [130]   gres_bit_step_alloc:NULL
+[2016-05-17T18:07:30.271] [130]   gres_cnt_step_alloc:NULL
+[2016-05-17T18:07:30.271] [130]   gres_bit_alloc[0]:3-5
+[2016-05-17T18:07:30.271] [130]   gres_bit_alloc[1]:NULL
+[2016-05-17T18:07:30.271] Launching batch job 131 for UID 1001
+[2016-05-17T18:07:30.280] [131] gres: gpu state for job 131
+[2016-05-17T18:07:30.280] [131]   gres_cnt:4 node_cnt:2 type:(null)
+[2016-05-17T18:07:30.280] [131]   gres_bit_step_alloc:NULL
+[2016-05-17T18:07:30.280] [131]   gres_cnt_step_alloc:NULL
+[2016-05-17T18:07:30.280] [131]   gres_bit_alloc[0]:6-7
+[2016-05-17T18:07:30.280] [131]   gres_bit_alloc[1]:0-1
+[2016-05-17T18:07:30.280] Launching batch job 132 for UID 1001
+[2016-05-17T18:07:30.284] [132] gres: gpu state for job 132
+[2016-05-17T18:07:30.284] [132]   gres_cnt:5 node_cnt:2 type:(null)
+[2016-05-17T18:07:30.284] [132]   gres_bit_step_alloc:NULL
+[2016-05-17T18:07:30.284] [132]   gres_cnt_step_alloc:NULL
+[2016-05-17T18:07:30.284] [132]   gres_bit_alloc[0]:NULL
+[2016-05-17T18:07:30.284] [132]   gres_bit_alloc[1]:2-6
+[2016-05-17T18:08:51.990] [128] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T18:08:51.992] [128] done with job
+[2016-05-17T18:08:54.447] [129] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T18:08:54.448] [129] done with job
+[2016-05-17T18:08:57.048] [130] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T18:08:57.051] [130] done with job
+[2016-05-17T18:08:57.368] _run_prolog: run job script took usec=7
+[2016-05-17T18:08:57.368] _run_prolog: prolog with lock for job 133 ran for 0 seconds
+[2016-05-17T18:08:57.368] Launching batch job 133 for UID 1001
+[2016-05-17T18:08:57.373] [133] gres: gpu state for job 133
+[2016-05-17T18:08:57.373] [133]   gres_cnt:6 node_cnt:2 type:(null)
+[2016-05-17T18:08:57.373] [133]   gres_bit_step_alloc:NULL
+[2016-05-17T18:08:57.373] [133]   gres_cnt_step_alloc:NULL
+[2016-05-17T18:08:57.373] [133]   gres_bit_alloc[0]:0-5
+[2016-05-17T18:08:57.373] [133]   gres_bit_alloc[1]:NULL
+[2016-05-17T18:09:29.695] [131] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T18:09:29.696] [131] done with job
+[2016-05-17T18:10:31.722] [132] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T18:10:31.723] [132] done with job
+[2016-05-17T18:10:58.684] [133] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-17T18:10:58.686] [133] done with job
+[2016-05-17T18:37:42.172] Slurmd shutdown completing
+[2016-05-19T17:20:46.847] Node configuration differs from hardware: CPUs=16:32(hw) Boards=1:1(hw) SocketsPerBoard=16:2(hw) CoresPerSocket=1:8(hw) ThreadsPerCore=1:2(hw)
+[2016-05-19T17:20:46.848] Message aggregation disabled
+[2016-05-19T17:20:46.849] Gres Name=gpu Type=tesla Count=8 ID=7696487 File=/dev/nvidia[0-7] CPUs=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 CpuCnt=32
+[2016-05-19T17:20:46.849] gpu 0 is device number 0
+[2016-05-19T17:20:46.849] gpu 1 is device number 1
+[2016-05-19T17:20:46.849] gpu 2 is device number 2
+[2016-05-19T17:20:46.849] gpu 3 is device number 3
+[2016-05-19T17:20:46.849] gpu 4 is device number 4
+[2016-05-19T17:20:46.849] gpu 5 is device number 5
+[2016-05-19T17:20:46.849] gpu 6 is device number 6
+[2016-05-19T17:20:46.849] gpu 7 is device number 7
+[2016-05-19T17:20:46.850] Resource spec: Reserved system memory limit not configured for this node
+[2016-05-19T17:20:46.852] slurmd version 15.08.6 started
+[2016-05-19T17:20:46.854] slurmd started on Thu, 19 May 2016 17:20:46 +0800
+[2016-05-19T17:20:46.854] CPUs=16 Boards=1 Sockets=16 Cores=1 Threads=1 Memory=161167 TmpDisk=50273 Uptime=11149556 CPUSpecList=(null)
+[2016-05-19T17:22:29.265] _run_prolog: run job script took usec=4
+[2016-05-19T17:22:29.265] _run_prolog: prolog with lock for job 134 ran for 0 seconds
+[2016-05-19T17:22:29.265] Launching batch job 134 for UID 1001
+[2016-05-19T17:22:29.277] [134] gres: gpu state for job 134
+[2016-05-19T17:22:29.277] [134]   gres_cnt:1 node_cnt:2 type:(null)
+[2016-05-19T17:22:29.277] [134]   gres_bit_step_alloc:NULL
+[2016-05-19T17:22:29.277] [134]   gres_cnt_step_alloc:NULL
+[2016-05-19T17:22:29.277] [134]   gres_bit_alloc[0]:0
+[2016-05-19T17:22:29.277] [134]   gres_bit_alloc[1]:NULL
+[2016-05-19T17:23:00.272] [134] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 65280
+[2016-05-19T17:23:00.274] [134] done with job
+[2016-05-19T17:24:27.478] _run_prolog: run job script took usec=4
+[2016-05-19T17:24:27.478] _run_prolog: prolog with lock for job 136 ran for 0 seconds
+[2016-05-19T17:24:27.478] Launching batch job 136 for UID 1001
+[2016-05-19T17:24:27.482] [136] gres: gpu state for job 136
+[2016-05-19T17:24:27.482] [136]   gres_cnt:1 node_cnt:2 type:(null)
+[2016-05-19T17:24:27.482] [136]   gres_bit_step_alloc:NULL
+[2016-05-19T17:24:27.482] [136]   gres_cnt_step_alloc:NULL
+[2016-05-19T17:24:27.482] [136]   gres_bit_alloc[0]:0
+[2016-05-19T17:24:27.482] [136]   gres_bit_alloc[1]:NULL
+[2016-05-19T17:25:38.267] _run_prolog: run job script took usec=5
+[2016-05-19T17:25:38.267] _run_prolog: prolog with lock for job 137 ran for 0 seconds
+[2016-05-19T17:25:38.267] Launching batch job 137 for UID 1001
+[2016-05-19T17:25:38.272] [137] gres: gpu state for job 137
+[2016-05-19T17:25:38.272] [137]   gres_cnt:1 node_cnt:2 type:(null)
+[2016-05-19T17:25:38.272] [137]   gres_bit_step_alloc:NULL
+[2016-05-19T17:25:38.272] [137]   gres_cnt_step_alloc:NULL
+[2016-05-19T17:25:38.272] [137]   gres_bit_alloc[0]:1
+[2016-05-19T17:25:38.272] [137]   gres_bit_alloc[1]:NULL
+[2016-05-19T17:26:41.788] [137] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-19T17:26:41.790] [137] done with job
+[2016-05-19T17:26:54.237] [136] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 35584
+[2016-05-19T17:26:54.239] [136] done with job
+[2016-05-19T17:29:27.843] _run_prolog: run job script took usec=9
+[2016-05-19T17:29:27.843] _run_prolog: prolog with lock for job 138 ran for 0 seconds
+[2016-05-19T17:29:27.843] Launching batch job 138 for UID 1001
+[2016-05-19T17:29:27.848] [138] gres: gpu state for job 138
+[2016-05-19T17:29:27.848] [138]   gres_cnt:1 node_cnt:2 type:(null)
+[2016-05-19T17:29:27.848] [138]   gres_bit_step_alloc:NULL
+[2016-05-19T17:29:27.848] [138]   gres_cnt_step_alloc:NULL
+[2016-05-19T17:29:27.848] [138]   gres_bit_alloc[0]:0
+[2016-05-19T17:29:27.848] [138]   gres_bit_alloc[1]:NULL
+[2016-05-19T17:30:45.158] [138] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 65280
+[2016-05-19T17:30:45.160] [138] done with job
+[2016-05-19T17:38:50.298] _run_prolog: run job script took usec=5
+[2016-05-19T17:38:50.298] _run_prolog: prolog with lock for job 139 ran for 0 seconds
+[2016-05-19T17:38:50.298] Launching batch job 139 for UID 1001
+[2016-05-19T17:38:50.303] [139] gres: gpu state for job 139
+[2016-05-19T17:38:50.303] [139]   gres_cnt:1 node_cnt:2 type:(null)
+[2016-05-19T17:38:50.303] [139]   gres_bit_step_alloc:NULL
+[2016-05-19T17:38:50.303] [139]   gres_cnt_step_alloc:NULL
+[2016-05-19T17:38:50.303] [139]   gres_bit_alloc[0]:0
+[2016-05-19T17:38:50.303] [139]   gres_bit_alloc[1]:NULL
+[2016-05-19T17:39:29.725] [139] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-19T17:39:29.727] [139] done with job
+[2016-05-19T17:40:36.143] _run_prolog: run job script took usec=8
+[2016-05-19T17:40:36.143] _run_prolog: prolog with lock for job 140 ran for 0 seconds
+[2016-05-19T17:40:36.143] Launching batch job 140 for UID 1001
+[2016-05-19T17:40:36.148] [140] gres: gpu state for job 140
+[2016-05-19T17:40:36.148] [140]   gres_cnt:1 node_cnt:2 type:(null)
+[2016-05-19T17:40:36.148] [140]   gres_bit_step_alloc:NULL
+[2016-05-19T17:40:36.148] [140]   gres_cnt_step_alloc:NULL
+[2016-05-19T17:40:36.148] [140]   gres_bit_alloc[0]:0
+[2016-05-19T17:40:36.148] [140]   gres_bit_alloc[1]:NULL
+[2016-05-19T17:41:42.332] [140] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 35584
+[2016-05-19T17:41:42.334] [140] done with job
+[2016-05-19T18:15:51.404] _run_prolog: run job script took usec=16
+[2016-05-19T18:15:51.404] _run_prolog: prolog with lock for job 141 ran for 0 seconds
+[2016-05-19T18:15:51.404] Launching batch job 141 for UID 1001
+[2016-05-19T18:15:51.408] [141] gres: gpu state for job 141
+[2016-05-19T18:15:51.409] [141]   gres_cnt:1 node_cnt:2 type:(null)
+[2016-05-19T18:15:51.409] [141]   gres_bit_step_alloc:NULL
+[2016-05-19T18:15:51.409] [141]   gres_cnt_step_alloc:NULL
+[2016-05-19T18:15:51.409] [141]   gres_bit_alloc[0]:0
+[2016-05-19T18:15:51.409] [141]   gres_bit_alloc[1]:NULL
+[2016-05-19T18:16:30.639] [141] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-05-19T18:16:30.640] [141] done with job
+[2016-05-19T18:17:12.518] _run_prolog: run job script took usec=7
+[2016-05-19T18:17:12.518] _run_prolog: prolog with lock for job 142 ran for 0 seconds
+[2016-05-19T18:17:12.518] Launching batch job 142 for UID 1001
+[2016-05-19T18:17:12.522] [142] gres: gpu state for job 142
+[2016-05-19T18:17:12.522] [142]   gres_cnt:1 node_cnt:2 type:(null)
+[2016-05-19T18:17:12.522] [142]   gres_bit_step_alloc:NULL
+[2016-05-19T18:17:12.522] [142]   gres_cnt_step_alloc:NULL
+[2016-05-19T18:17:12.522] [142]   gres_bit_alloc[0]:0
+[2016-05-19T18:17:12.522] [142]   gres_bit_alloc[1]:NULL
+[2016-05-19T18:19:02.480] _run_prolog: run job script took usec=5
+[2016-05-19T18:19:02.480] _run_prolog: prolog with lock for job 143 ran for 0 seconds
+[2016-05-19T18:19:02.480] Launching batch job 143 for UID 1001
+[2016-05-19T18:19:02.484] [143] gres: gpu state for job 143
+[2016-05-19T18:19:02.484] [143]   gres_cnt:1 node_cnt:2 type:(null)
+[2016-05-19T18:19:02.484] [143]   gres_bit_step_alloc:NULL
+[2016-05-19T18:19:02.484] [143]   gres_cnt_step_alloc:NULL
+[2016-05-19T18:19:02.484] [143]   gres_bit_alloc[0]:1
+[2016-05-19T18:19:02.484] [143]   gres_bit_alloc[1]:NULL
+[2016-05-19T18:21:55.761] _run_prolog: run job script took usec=6
+[2016-05-19T18:21:55.761] _run_prolog: prolog with lock for job 144 ran for 0 seconds
+[2016-05-19T18:21:55.761] Launching batch job 144 for UID 1001
+[2016-05-19T18:21:55.766] [144] gres: gpu state for job 144
+[2016-05-19T18:21:55.766] [144]   gres_cnt:1 node_cnt:2 type:(null)
+[2016-05-19T18:21:55.766] [144]   gres_bit_step_alloc:NULL
+[2016-05-19T18:21:55.766] [144]   gres_cnt_step_alloc:NULL
+[2016-05-19T18:21:55.766] [144]   gres_bit_alloc[0]:2
+[2016-05-19T18:21:55.766] [144]   gres_bit_alloc[1]:NULL
+[2016-05-19T18:22:14.554] [143] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 35584
+[2016-05-19T18:22:14.556] [143] done with job
+[2016-05-19T18:23:12.933] [144] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 65280
+[2016-05-19T18:23:12.935] [144] done with job
+[2016-05-19T19:48:29.542] [142] *** JOB 142 ON gpu-cluster-1 CANCELLED AT 2016-05-19T19:48:29 ***
+[2016-05-19T19:48:29.709] [142] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 15
+[2016-05-19T19:48:29.710] [142] done with job
+[2016-05-19T19:53:10.306] Slurmd shutdown completing
+[2016-05-19T20:23:49.659] Node configuration differs from hardware: CPUs=16:32(hw) Boards=1:1(hw) SocketsPerBoard=16:2(hw) CoresPerSocket=1:8(hw) ThreadsPerCore=1:2(hw)
+[2016-05-19T20:23:49.660] Message aggregation disabled
+[2016-05-19T20:23:49.660] Gres Name=gpu Type=tesla Count=8 ID=7696487 File=/dev/nvidia[0-7] CPUs=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 CpuCnt=32
+[2016-05-19T20:23:49.660] gpu 0 is device number 0
+[2016-05-19T20:23:49.660] gpu 1 is device number 1
+[2016-05-19T20:23:49.660] gpu 2 is device number 2
+[2016-05-19T20:23:49.660] gpu 3 is device number 3
+[2016-05-19T20:23:49.660] gpu 4 is device number 4
+[2016-05-19T20:23:49.660] gpu 5 is device number 5
+[2016-05-19T20:23:49.660] gpu 6 is device number 6
+[2016-05-19T20:23:49.660] gpu 7 is device number 7
+[2016-05-19T20:23:49.661] Resource spec: Reserved system memory limit not configured for this node
+[2016-05-19T20:23:49.662] slurmd version 15.08.6 started
+[2016-05-19T20:23:49.662] slurmd started on Thu, 19 May 2016 20:23:49 +0800
+[2016-05-19T20:23:49.663] CPUs=16 Boards=1 Sockets=16 Cores=1 Threads=1 Memory=161167 TmpDisk=50273 Uptime=11160539 CPUSpecList=(null)
+[2016-05-19T20:24:30.358] launch task 145.0 request from 1001.1001@192.168.2.1 (port 39850)
+[2016-05-19T20:24:30.359] _run_prolog: run job script took usec=4
+[2016-05-19T20:24:30.359] _run_prolog: prolog with lock for job 145 ran for 0 seconds
+[2016-05-19T20:24:30.373] [145.0] execve(): /bin/sleep: Text file busy
+[2016-05-19T20:24:30.373] [145.0] execve(): /bin/sleep: Text file busy
+[2016-05-19T20:24:30.373] [145.0] execve(): /bin/sleep: Text file busy
+[2016-05-19T20:24:30.373] [145.0] execve(): /bin/sleep: Text file busy
+[2016-05-19T20:24:30.373] [145.0] execve(): /bin/sleep: Text file busy
+[2016-05-19T20:24:30.373] [145.0] execve(): /bin/sleep: Text file busy
+[2016-05-19T20:24:30.373] [145.0] execve(): /bin/sleep: Text file busy
+[2016-05-19T20:24:30.373] [145.0] execve(): /bin/sleep: Text file busy
+[2016-05-19T20:24:30.373] [145.0] execve(): /bin/sleep: Text file busy
+[2016-05-19T20:24:30.373] [145.0] execve(): /bin/sleep: Text file busy
+[2016-05-19T20:24:30.373] [145.0] execve(): /bin/sleep: Text file busy
+[2016-05-19T20:24:30.948] [145.0] done with job
+[2016-05-19T20:25:07.024] Slurmd shutdown completing
+[2016-06-04T10:48:39.888] Node configuration differs from hardware: CPUs=16:32(hw) Boards=1:1(hw) SocketsPerBoard=16:2(hw) CoresPerSocket=1:8(hw) ThreadsPerCore=1:2(hw)
+[2016-06-04T10:48:40.053] Message aggregation disabled
+[2016-06-04T10:48:40.057] Gres Name=gpu Type=tesla Count=8 ID=7696487 File=/dev/nvidia[0-7] CPUs=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 CpuCnt=32
+[2016-06-04T10:48:40.057] gpu 0 is device number 0
+[2016-06-04T10:48:40.057] gpu 1 is device number 1
+[2016-06-04T10:48:40.057] gpu 2 is device number 2
+[2016-06-04T10:48:40.057] gpu 3 is device number 3
+[2016-06-04T10:48:40.057] gpu 4 is device number 4
+[2016-06-04T10:48:40.057] gpu 5 is device number 5
+[2016-06-04T10:48:40.057] gpu 6 is device number 6
+[2016-06-04T10:48:40.057] gpu 7 is device number 7
+[2016-06-04T10:48:40.058] Resource spec: Reserved system memory limit not configured for this node
+[2016-06-04T10:48:40.059] slurmd version 15.08.6 started
+[2016-06-04T10:48:40.060] slurmd started on Sat, 04 Jun 2016 10:48:40 +0800
+[2016-06-04T10:48:40.060] CPUs=16 Boards=1 Sockets=16 Cores=1 Threads=1 Memory=161167 TmpDisk=50273 Uptime=12508430 CPUSpecList=(null)
+[2016-06-04T10:50:03.858] _run_prolog: run job script took usec=5
+[2016-06-04T10:50:03.858] _run_prolog: prolog with lock for job 147 ran for 0 seconds
+[2016-06-04T10:50:03.858] Launching batch job 147 for UID 1001
+[2016-06-04T10:50:03.862] [147] gres: gpu state for job 147
+[2016-06-04T10:50:03.862] [147]   gres_cnt:1 node_cnt:2 type:(null)
+[2016-06-04T10:50:03.862] [147]   gres_bit_step_alloc:NULL
+[2016-06-04T10:50:03.862] [147]   gres_cnt_step_alloc:NULL
+[2016-06-04T10:50:03.862] [147]   gres_bit_alloc[0]:0
+[2016-06-04T10:50:03.862] [147]   gres_bit_alloc[1]:NULL
+[2016-06-04T10:50:03.869] [147] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 32512
+[2016-06-04T10:50:03.871] [147] done with job
+[2016-06-04T10:52:46.965] Node configuration differs from hardware: CPUs=16:32(hw) Boards=1:1(hw) SocketsPerBoard=16:2(hw) CoresPerSocket=1:8(hw) ThreadsPerCore=1:2(hw)
+[2016-06-04T10:52:46.965] Message aggregation disabled
+[2016-06-04T10:52:46.965] Gres Name=gpu Type=tesla Count=8 ID=7696487 File=/dev/nvidia[0-7] CPUs=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 CpuCnt=32
+[2016-06-04T10:52:46.965] gpu 0 is device number 0
+[2016-06-04T10:52:46.965] gpu 1 is device number 1
+[2016-06-04T10:52:46.965] gpu 2 is device number 2
+[2016-06-04T10:52:46.965] gpu 3 is device number 3
+[2016-06-04T10:52:46.965] gpu 4 is device number 4
+[2016-06-04T10:52:46.965] gpu 5 is device number 5
+[2016-06-04T10:52:46.965] gpu 6 is device number 6
+[2016-06-04T10:52:46.965] gpu 7 is device number 7
+[2016-06-04T10:52:46.966] Resource spec: Reserved system memory limit not configured for this node
+[2016-06-04T10:52:46.967] slurmd version 15.08.6 started
+[2016-06-04T10:52:46.968] slurmd started on Sat, 04 Jun 2016 10:52:46 +0800
+[2016-06-04T10:52:46.968] CPUs=16 Boards=1 Sockets=16 Cores=1 Threads=1 Memory=161167 TmpDisk=50273 Uptime=12508677 CPUSpecList=(null)
+[2016-06-04T10:53:14.274] _run_prolog: run job script took usec=7
+[2016-06-04T10:53:14.274] _run_prolog: prolog with lock for job 149 ran for 0 seconds
+[2016-06-04T10:53:14.274] Launching batch job 149 for UID 1001
+[2016-06-04T10:53:14.278] [149] gres: gpu state for job 149
+[2016-06-04T10:53:14.278] [149]   gres_cnt:1 node_cnt:2 type:(null)
+[2016-06-04T10:53:14.278] [149]   gres_bit_step_alloc:NULL
+[2016-06-04T10:53:14.278] [149]   gres_cnt_step_alloc:NULL
+[2016-06-04T10:53:14.278] [149]   gres_bit_alloc[0]:0
+[2016-06-04T10:53:14.278] [149]   gres_bit_alloc[1]:NULL
+[2016-06-04T10:53:34.245] [149] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 65280
+[2016-06-04T10:53:34.247] [149] done with job
+[2016-06-04T10:55:54.416] _run_prolog: run job script took usec=5
+[2016-06-04T10:55:54.416] _run_prolog: prolog with lock for job 150 ran for 0 seconds
+[2016-06-04T10:55:54.416] Launching batch job 150 for UID 1001
+[2016-06-04T10:55:54.420] [150] gres: gpu state for job 150
+[2016-06-04T10:55:54.420] [150]   gres_cnt:2 node_cnt:2 type:(null)
+[2016-06-04T10:55:54.420] [150]   gres_bit_step_alloc:NULL
+[2016-06-04T10:55:54.420] [150]   gres_cnt_step_alloc:NULL
+[2016-06-04T10:55:54.420] [150]   gres_bit_alloc[0]:0-1
+[2016-06-04T10:55:54.420] [150]   gres_bit_alloc[1]:NULL
+[2016-06-04T10:56:59.784] [150] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:0 status 0
+[2016-06-04T10:56:59.786] [150] done with job
+[2016-06-04T10:59:38.638] Slurmd shutdown completing

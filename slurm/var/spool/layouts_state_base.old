@@ -1,0 +1,5 @@
+Priority=0
+Root=NULL
+Entity=NULL Enclosed=gpu-cluster-[1,4]
+Entity=gpu-cluster-1 Type=Node
+Entity=gpu-cluster-4 Type=Node
