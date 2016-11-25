@@ -1,0 +1,2 @@
+#!/bin/sh 
+/home/run/wx-workplace/mvapich2-2.1/bin/mpiexec -genv MV2_ENABLE_AFFINITY 0 -genv MV2_SUPPORT_DPM 1 -genv MV2_SMP_USE_CMA 0 -genv GC_DEVICE_HOSTS "/home/run/wx-workplace/2/slurm/var/spool/slurmd/job00579/slurm_gpu_hostfile" -genv GC_DEVICE_LIST "6 7 0 1 " -f "/home/run/wx-workplace/2/slurm/var/spool/slurmd/job00579/slurm_hostfile" -n 1 -env CUDA_VISIBLE_DEVICES "" /home/run/cuda-workplace/cudart_remote/src/vectorAdd 0 
