@@ -1,0 +1,28 @@
+/*
+ * =====================================================================================
+ *
+ *       Filename:  test.c
+ *
+ *    Description:  
+ *
+ *        Version:  1.0
+ *        Created:  06/02/2016 11:06:12 PM
+ *       Revision:  none
+ *       Compiler:  gcc
+ *
+ *         Author:  YOUR NAME (), 
+ *   Organization:  
+ *
+ * =====================================================================================
+ */
+
+#include "src/common/list.h"
+#include "src/common/slurm_cred.h"
+#include <stdlib.h>
+int main()
+{
+	slurm_cred_t *cred = NULL;
+	cred = (slurm_cred_t *)malloc(sizeof(slurm_cred_t));
+	cred->job_gres_list = NULL;
+	return 0;
+}
